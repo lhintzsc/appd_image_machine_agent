@@ -1,0 +1,394 @@
+[2020-07-14T17:00:02,314+02:00]  [INFO ]  [system-thread-0]  [i.d.server.DefaultServerFactory]  Registering jersey handler with root path prefix: /
+[2020-07-14T17:00:02,328+02:00]  [INFO ]  [system-thread-0]  [i.d.server.DefaultServerFactory]  Registering admin handler with root path prefix: /
+[2020-07-14T17:00:02,345+02:00]  [INFO ]  [system-thread-0]  [c.a.c.framework.util.FrameworkHelper]  Application configuration version is [18], the YML file version is [18], the properties file version is [18] and the ConfigurationProperties object version is [18]
+[2020-07-14T17:00:02,351+02:00]  [INFO ]  [system-thread-0]  [c.a.common.framework.util.SimpleApp]  Starting [analytics-agent]
+[2020-07-14T17:00:02,968+02:00]  [INFO ]  [system-thread-0]  [c.a.common.framework.BootstrapModule]  Application configured with [ConfigurationProperties: [Backing Configuration Source: [CompositeConfiguration: [systemPropertiesConfig, environmentPropertiesConfig, systemVariableConfig, propertiesFileConfig:/opt/appd/machine_agent/monitors/analytics-agent/conf/analytics-agent.properties, fileIncludeConfig, calendarConfig]]]]
+[2020-07-14T17:00:03,002+02:00]  [INFO ]  [system-thread-0]  [c.a.common.framework.BootstrapModule]  Build information [buildName=master-Analytics-master-20.6.0-2289, buildHash=6f03ffc324edabf568a2c9fa6a06c5fb24d17a90, buildTimestamp=2020-06-17T07:03:53+0000, buildNumber=20.6.0-2289, jobName=Analytics-master, version=20.6.0-2289]
+[2020-07-14T17:00:03,467+02:00]  [INFO ]  [system-thread-0]  [org.reflections.Reflections]  Reflections took 41 ms to scan 1 urls, producing 204 keys and 331 values 
+[2020-07-14T17:00:03,504+02:00]  [INFO ]  [system-thread-0]  [c.a.common.util.grok.GrokParser]  A previously parsed Grok pattern [MCOLLECTIVEAUDIT] has now been overridden
+[2020-07-14T17:00:03,510+02:00]  [INFO ]  [system-thread-0]  [c.a.common.util.grok.GrokParser]  A previously parsed Grok pattern [JAVACLASS] has now been overridden
+[2020-07-14T17:00:03,510+02:00]  [INFO ]  [system-thread-0]  [c.a.common.util.grok.GrokParser]  A previously parsed Grok pattern [JAVAFILE] has now been overridden
+[2020-07-14T17:00:03,510+02:00]  [INFO ]  [system-thread-0]  [c.a.common.util.grok.GrokParser]  A previously parsed Grok pattern [JAVASTACKTRACEPART] has now been overridden
+[2020-07-14T17:00:03,541+02:00]  [INFO ]  [system-thread-0]  [c.a.c.u.health.HealthReporterModule]  Started and is scheduled to run every [3 MINUTES]
+[2020-07-14T17:00:03,546+02:00]  [INFO ]  [system-thread-0]  [c.a.a.a.p.e.AgentEventServiceClientModule]  Created EventServiceClient for account [analytics-customer1]
+[2020-07-14T17:00:03,546+02:00]  [INFO ]  [system-thread-0]  [c.a.a.a.p.e.AgentEventServiceClientModule]  Trust store being used for communication with the Event Service [null]
+[2020-07-14T17:00:03,643+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipeline]  Started pipeline [log-publish-0]
+[2020-07-14T17:00:03,644+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipelines]  Loaded and started statically defined pipeline [log-publish-0]
+[2020-07-14T17:00:03,660+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipeline]  Started pipeline [log-publish-1]
+[2020-07-14T17:00:03,660+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipelines]  Loaded and started statically defined pipeline [log-publish-1]
+[2020-07-14T17:00:03,673+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipeline]  Started pipeline [log-publish-2]
+[2020-07-14T17:00:03,673+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipelines]  Loaded and started statically defined pipeline [log-publish-2]
+[2020-07-14T17:00:03,680+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipeline]  Started pipeline [log-publish-3]
+[2020-07-14T17:00:03,680+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipelines]  Loaded and started statically defined pipeline [log-publish-3]
+[2020-07-14T17:00:03,686+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipeline]  Started pipeline [log-publish-4]
+[2020-07-14T17:00:03,687+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipelines]  Loaded and started statically defined pipeline [log-publish-4]
+[2020-07-14T17:00:03,694+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipeline]  Started pipeline [log-publish-5]
+[2020-07-14T17:00:03,695+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipelines]  Loaded and started statically defined pipeline [log-publish-5]
+[2020-07-14T17:00:03,701+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipeline]  Started pipeline [log-publish-6]
+[2020-07-14T17:00:03,702+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipelines]  Loaded and started statically defined pipeline [log-publish-6]
+[2020-07-14T17:00:03,708+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipeline]  Started pipeline [log-publish-7]
+[2020-07-14T17:00:03,708+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipelines]  Loaded and started statically defined pipeline [log-publish-7]
+[2020-07-14T17:00:03,714+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipeline]  Started pipeline [bt-publish-0]
+[2020-07-14T17:00:03,715+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipelines]  Loaded and started statically defined pipeline [bt-publish-0]
+[2020-07-14T17:00:03,722+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipeline]  Started pipeline [bt-publish-1]
+[2020-07-14T17:00:03,723+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipelines]  Loaded and started statically defined pipeline [bt-publish-1]
+[2020-07-14T17:00:03,729+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipeline]  Started pipeline [bt-publish-2]
+[2020-07-14T17:00:03,731+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipelines]  Loaded and started statically defined pipeline [bt-publish-2]
+[2020-07-14T17:00:03,737+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipeline]  Started pipeline [bt-publish-3]
+[2020-07-14T17:00:03,738+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipelines]  Loaded and started statically defined pipeline [bt-publish-3]
+[2020-07-14T17:00:03,743+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipeline]  Started pipeline [bt-publish-4]
+[2020-07-14T17:00:03,744+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipelines]  Loaded and started statically defined pipeline [bt-publish-4]
+[2020-07-14T17:00:03,750+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipeline]  Started pipeline [bt-publish-5]
+[2020-07-14T17:00:03,751+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipelines]  Loaded and started statically defined pipeline [bt-publish-5]
+[2020-07-14T17:00:03,757+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipeline]  Started pipeline [bt-publish-6]
+[2020-07-14T17:00:03,757+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipelines]  Loaded and started statically defined pipeline [bt-publish-6]
+[2020-07-14T17:00:03,764+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipeline]  Started pipeline [bt-publish-7]
+[2020-07-14T17:00:03,764+02:00]  [INFO ]  [system-thread-0]  [c.a.a.pipeline.framework.Pipelines]  Loaded and started statically defined pipeline [bt-publish-7]
+[2020-07-14T17:00:03,764+02:00]  [INFO ]  [system-thread-0]  [c.a.common.io.server.Servers]  Started [network:server]
+[2020-07-14T17:00:03,773+02:00]  [INFO ]  [system-thread-0]  [c.a.a.a.p.e.AgentEventServiceClientModule]  Created ExtractedFieldsClient for account [analytics-customer1]
+[2020-07-14T17:00:03,793+02:00]  [INFO ]  [system-thread-0]  [c.a.analytics.agent.base.LogBase]  Starting [Log Sources]
+[2020-07-14T17:00:03,793+02:00]  [INFO ]  [system-thread-0]  [c.a.a.agent.source.LogSources]  Loading previously persisted log source configuration and watermarks.
+[2020-07-14T17:00:03,794+02:00]  [INFO ]  [system-thread-0]  [c.a.a.a.source.LogWatermarkManager]  Failed to load source watermarks [/opt/appd/machine_agent/monitors/analytics-agent/conf/watermark/watermarks.json] with error [/opt/appd/machine_agent/monitors/analytics-agent/conf/watermark/watermarks.json (No such file or directory)].  This is probably the first run.
+[2020-07-14T17:00:04,613+02:00]  [INFO ]  [system-thread-0]  [c.a.analytics.agent.base.LogBase]  Starting [Watermark Manager]
+[2020-07-14T17:00:04,615+02:00]  [INFO ]  [system-thread-0]  [c.a.c.i.f.AbstractFilePollerModule]  Directory [/opt/appd/machine_agent/monitors/analytics-agent/conf/job] with files matching [**{.yml,.job}] will be monitored by [file:poll:pipeline]
+[2020-07-14T17:00:04,632+02:00]  [INFO ]  [system-thread-0]  [c.a.common.util.event.EventBuses]  Started event bus [default-event-bus]
+[2020-07-14T17:00:04,635+02:00]  [INFO ]  [system-thread-0]  [c.a.a.a.field.ExtractedFieldsPoller]  Extracted fields poller started with poll interval [60000] ms and initial delay [30000] ms
+[2020-07-14T17:00:04,701+02:00]  [WARN ]  [system-thread-0]  [c.a.a.a.p.e.AgentEventServiceClientModule]  The Event Service could not be contacted. Please verify that the account name, access key and the endpoint address were specified correctly. It could also be the case that the service is not running yet. Actual error message [Connection refused (Connection refused)]
+[2020-07-14T17:00:04,703+02:00]  [INFO ]  [system-thread-0]  [c.a.a.agent.source.LogSourcesModule]  Started
+[2020-07-14T17:00:04,712+02:00]  [INFO ]  [system-thread-0]  [c.a.a.a.s.AgentSyncLifecycleManager]  Starting analytics agent sync life cycle manager.
+[2020-07-14T17:00:04,713+02:00]  [INFO ]  [system-thread-0]  [c.a.a.a.s.AnalyticsAgentSyncModule]  Started
+[2020-07-14T17:00:04,715+02:00]  [INFO ]  [analytics-agent-sync-thread-0]  [c.a.a.a.s.AgentSyncLifecycleManager]  Analytics agent syncing thread is starting up.
+[2020-07-14T17:00:04,766+02:00]  [INFO ]  [analytics-agent-sync-thread-0]  [c.a.a.a.s.r.RegistrationChannelManager]  Trust store being used for communication with the Controller [null]
+[2020-07-14T17:00:04,781+02:00]  [ERROR]  [analytics-agent-sync-thread-0]  [c.a.a.agent.sync.ErrorMessageHelper]  Analytics agent failed to connect to the controller registration endpoint. This can happen when the connection is refused remotely, or when there is no process listening on the remote address/port. Please check to see if the controller address is configured correctly and is running.
+[2020-07-14T17:00:04,781+02:00]  [WARN ]  [analytics-agent-sync-thread-0]  [c.a.a.a.s.AgentSyncLifecycleManager]  Failed to successfully sync [REGISTRATION] ... retrying in [60] seconds.
+[2020-07-14T17:00:04,825+02:00]  [INFO ]  [system-thread-0]  [o.e.jetty.setuid.SetUIDListener]  Opened application@7e5293ba{HTTP/1.1,[http/1.1]}{0.0.0.0:9090}
+[2020-07-14T17:00:04,825+02:00]  [INFO ]  [system-thread-0]  [o.e.jetty.setuid.SetUIDListener]  Opened admin@5787ee2e{HTTP/1.1,[http/1.1]}{0.0.0.0:9091}
+[2020-07-14T17:00:04,827+02:00]  [INFO ]  [system-thread-0]  [org.eclipse.jetty.server.Server]  jetty-9.4.20.v20190813; built: 2019-08-13T21:28:18.144Z; git: 84700530e645e812b336747464d6fbbf370c9a20; jvm 1.8.0_252-b14
+[2020-07-14T17:00:05,336+02:00]  [INFO ]  [system-thread-0]  [i.d.jersey.DropwizardResourceConfig]  The following paths were found for the configured resources:
+
+    GET     /_ping (com.appdynamics.common.framework.util.NoOpResource)
+    GET     /debug/grok (com.appdynamics.analytics.pipeline.xform.grok.GrokStageResource)
+    POST    /debug/grok (com.appdynamics.analytics.pipeline.xform.grok.GrokStageResource)
+    GET     /debug/timestamp (com.appdynamics.analytics.pipeline.xform.time.DateTimeExtractorStageResource)
+    POST    /debug/timestamp (com.appdynamics.analytics.pipeline.xform.time.DateTimeExtractorStageResource)
+    GET     /pipelines (com.appdynamics.analytics.pipeline.framework.PipelinesResource)
+    POST    /pipelines (com.appdynamics.analytics.pipeline.framework.PipelinesResource)
+    DELETE  /pipelines/{pipelineId} (com.appdynamics.analytics.pipeline.framework.PipelinesResource)
+    GET     /pipelines/{pipelineId} (com.appdynamics.analytics.pipeline.framework.PipelinesResource)
+    POST    /pipelines/{pipelineId}/_pause (com.appdynamics.analytics.pipeline.framework.PipelinesResource)
+    POST    /pipelines/{pipelineId}/_resume (com.appdynamics.analytics.pipeline.framework.PipelinesResource)
+    POST    /pipelines/{pipelineId}/_start (com.appdynamics.analytics.pipeline.framework.PipelinesResource)
+    POST    /pipelines/{pipelineId}/_stop (com.appdynamics.analytics.pipeline.framework.PipelinesResource)
+
+[2020-07-14T17:00:05,337+02:00]  [INFO ]  [system-thread-0]  [o.e.j.server.handler.ContextHandler]  Started i.d.j.MutableServletContextHandler@1e402292{/,null,AVAILABLE}
+[2020-07-14T17:00:05,344+02:00]  [INFO ]  [system-thread-0]  [io.dropwizard.setup.AdminEnvironment]  tasks = 
+
+    POST    /tasks/log-level (io.dropwizard.servlets.tasks.LogConfigurationTask)
+    POST    /tasks/gc (io.dropwizard.servlets.tasks.GarbageCollectionTask)
+    POST    /tasks/shutdown (com.appdynamics.common.framework.util.ShutdownTask)
+
+[2020-07-14T17:00:05,351+02:00]  [INFO ]  [system-thread-0]  [o.e.j.server.handler.ContextHandler]  Started i.d.j.MutableServletContextHandler@626e77e0{/,null,AVAILABLE}
+[2020-07-14T17:00:05,361+02:00]  [INFO ]  [system-thread-0]  [o.e.jetty.server.AbstractConnector]  Started application@7e5293ba{HTTP/1.1,[http/1.1]}{0.0.0.0:9090}
+[2020-07-14T17:00:05,364+02:00]  [INFO ]  [system-thread-0]  [o.e.jetty.server.AbstractConnector]  Started admin@5787ee2e{HTTP/1.1,[http/1.1]}{0.0.0.0:9091}
+[2020-07-14T17:00:05,364+02:00]  [INFO ]  [system-thread-0]  [org.eclipse.jetty.server.Server]  Started @8563ms
+[2020-07-14T17:00:05,364+02:00]  [INFO ]  [system-thread-0]  [c.a.common.framework.util.SimpleApp]  Started [analytics-agent]
+[2020-07-14T17:00:09,663+02:00]  [INFO ]  [file:poll:pipeline-poller-thread-0]  [c.a.a.agent.source.LogSources]  Skipping log source [sample-analytics-log-with-request-guid.job] because it is disabled.
+[2020-07-14T17:00:09,694+02:00]  [INFO ]  [file:poll:pipeline-poller-thread-0]  [c.a.a.agent.source.LogSources]  Skipping log source [sample-analytics-log.job] because it is disabled.
+[2020-07-14T17:00:09,721+02:00]  [INFO ]  [file:poll:pipeline-poller-thread-0]  [c.a.a.agent.source.LogSources]  Skipping log source [sample-apache-httpserver-access-log.job] because it is disabled.
+[2020-07-14T17:00:09,756+02:00]  [INFO ]  [file:poll:pipeline-poller-thread-0]  [c.a.a.agent.source.LogSources]  Skipping log source [sample-apache-httpserver-access-syslog.job] because it is disabled.
+[2020-07-14T17:00:09,780+02:00]  [INFO ]  [file:poll:pipeline-poller-thread-0]  [c.a.a.agent.source.LogSources]  Skipping log source [sample-apache-httpserver-error-log.job] because it is disabled.
+[2020-07-14T17:00:09,803+02:00]  [INFO ]  [file:poll:pipeline-poller-thread-0]  [c.a.a.agent.source.LogSources]  Skipping log source [sample-cassandra-log.job] because it is disabled.
+[2020-07-14T17:00:09,826+02:00]  [INFO ]  [file:poll:pipeline-poller-thread-0]  [c.a.a.agent.source.LogSources]  Skipping log source [sample-couchdb-log.job] because it is disabled.
+[2020-07-14T17:00:09,849+02:00]  [INFO ]  [file:poll:pipeline-poller-thread-0]  [c.a.a.agent.source.LogSources]  Skipping log source [sample-glassfish-log.job] because it is disabled.
+[2020-07-14T17:00:09,878+02:00]  [INFO ]  [file:poll:pipeline-poller-thread-0]  [c.a.a.agent.source.LogSources]  Skipping log source [sample-iis-log.job] because it is disabled.
+[2020-07-14T17:00:09,901+02:00]  [INFO ]  [file:poll:pipeline-poller-thread-0]  [c.a.a.agent.source.LogSources]  Skipping log source [sample-java-agent-log.job] because it is disabled.
+[2020-07-14T17:00:09,924+02:00]  [INFO ]  [file:poll:pipeline-poller-thread-0]  [c.a.a.agent.source.LogSources]  Skipping log source [sample-jetty-error-log.job] because it is disabled.
+[2020-07-14T17:00:09,947+02:00]  [INFO ]  [file:poll:pipeline-poller-thread-0]  [c.a.a.agent.source.LogSources]  Skipping log source [sample-jetty-request-log.job] because it is disabled.
+[2020-07-14T17:00:09,970+02:00]  [INFO ]  [file:poll:pipeline-poller-thread-0]  [c.a.a.agent.source.LogSources]  Skipping log source [sample-log4j.job] because it is disabled.
+[2020-07-14T17:00:09,997+02:00]  [INFO ]  [file:poll:pipeline-poller-thread-0]  [c.a.a.agent.source.LogSources]  Skipping log source [sample-mongodb-log.job] because it is disabled.
+[2020-07-14T17:00:10,024+02:00]  [INFO ]  [file:poll:pipeline-poller-thread-0]  [c.a.a.agent.source.LogSources]  Skipping log source [sample-mysql-error-log.job] because it is disabled.
+[2020-07-14T17:00:10,046+02:00]  [INFO ]  [file:poll:pipeline-poller-thread-0]  [c.a.a.agent.source.LogSources]  Skipping log source [sample-nginx-access-log.job] because it is disabled.
+[2020-07-14T17:00:10,069+02:00]  [INFO ]  [file:poll:pipeline-poller-thread-0]  [c.a.a.agent.source.LogSources]  Skipping log source [sample-nginx-error-log.job] because it is disabled.
+[2020-07-14T17:00:10,091+02:00]  [INFO ]  [file:poll:pipeline-poller-thread-0]  [c.a.a.agent.source.LogSources]  Skipping log source [sample-osx-system-log.job] because it is disabled.
+[2020-07-14T17:00:10,114+02:00]  [INFO ]  [file:poll:pipeline-poller-thread-0]  [c.a.a.agent.source.LogSources]  Skipping log source [sample-postgres-log.job] because it is disabled.
+[2020-07-14T17:00:10,141+02:00]  [INFO ]  [file:poll:pipeline-poller-thread-0]  [c.a.a.agent.source.LogSources]  Skipping log source [sample-redis-log.job] because it is disabled.
+[2020-07-14T17:00:10,163+02:00]  [INFO ]  [file:poll:pipeline-poller-thread-0]  [c.a.a.agent.source.LogSources]  Skipping log source [sample-stock-quotes-csv.job] because it is disabled.
+[2020-07-14T17:00:10,186+02:00]  [INFO ]  [file:poll:pipeline-poller-thread-0]  [c.a.a.agent.source.LogSources]  Skipping log source [sample-weblogic-log.job] because it is disabled.
+[2020-07-14T17:01:04,830+02:00]  [ERROR]  [analytics-agent-sync-thread-0]  [c.a.a.agent.sync.ErrorMessageHelper]  Analytics agent failed to connect to the controller registration endpoint. This can happen when the connection is refused remotely, or when there is no process listening on the remote address/port. Please check to see if the controller address is configured correctly and is running.
+[2020-07-14T17:01:04,831+02:00]  [WARN ]  [analytics-agent-sync-thread-0]  [c.a.a.a.s.AgentSyncLifecycleManager]  Failed to successfully sync [REGISTRATION] ... retrying in [120] seconds.
+[2020-07-14T17:02:03,539+02:00]  [INFO ]  [throttled-message-flush-thread-0]  [c.a.a.a.p.e.AgentEventServiceClientModule]  This message was throttled [17] times: Created EventServiceClient for account [analytics-customer1]
+[2020-07-14T17:02:03,539+02:00]  [INFO ]  [throttled-message-flush-thread-0]  [c.a.a.a.p.e.AgentEventServiceClientModule]  This message was throttled [18] times: Trust store being used for communication with the Event Service [null]
+[2020-07-14T17:03:03,552+02:00]  [WARN ]  [health-report-thread-0]  [c.a.c.u.health.HealthReporterModule]  Report unhealthy [
+analytics-agent / Build information: (healthy) buildName=master-Analytics-master-20.6.0-2289, buildHash=6f03ffc324edabf568a2c9fa6a06c5fb24d17a90, buildTimestamp=2020-06-17T07:03:53+0000, buildNumber=20.6.0-2289, jobName=Analytics-master, version=20.6.0-2289
+
+analytics-agent / Configuration properties: (healthy) Dynamic properties: []
+
+analytics-agent / Connection to [http://localhost:9080]: (unhealthy) Connection refused (Connection refused)
+
+analytics-agent / Controller: (unhealthy) Failed to sync during [registration]
+
+analytics-agent / Log Sources: (healthy) 
+
+analytics-agent / http:eventType:publish:bt: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / http:eventType:publish:log: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / http:receive:bt[[/v1/sinks/bt/*, /v2/sinks/bt/*]]: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / pipelines: (healthy) [16] pipeline(s). bt-publish-0: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-1: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-2: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-3: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-4: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-5: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-6: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-7: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-7: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-6: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-5: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-4: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-3: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-2: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-1: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-0: [MessageSourceStage: 1, EventServicePublishStage: 0]
+
+analytics-agent / queues: (healthy) [2] queues [[biz_txn_v1] ratio: [0.00], size: [0], capacity: [128], [log_v1] ratio: [0.00], size: [0], capacity: [128]]
+
+deadlocks: (healthy) 
+]
+[2020-07-14T17:03:04,874+02:00]  [ERROR]  [analytics-agent-sync-thread-0]  [c.a.a.agent.sync.ErrorMessageHelper]  Analytics agent failed to connect to the controller registration endpoint. This can happen when the connection is refused remotely, or when there is no process listening on the remote address/port. Please check to see if the controller address is configured correctly and is running.
+[2020-07-14T17:03:04,874+02:00]  [WARN ]  [analytics-agent-sync-thread-0]  [c.a.a.a.s.AgentSyncLifecycleManager]  Failed to successfully sync [REGISTRATION] ... retrying in [240] seconds.
+[2020-07-14T17:06:03,559+02:00]  [WARN ]  [health-report-thread-0]  [c.a.c.u.health.HealthReporterModule]  Report unhealthy [
+analytics-agent / Build information: (healthy) buildName=master-Analytics-master-20.6.0-2289, buildHash=6f03ffc324edabf568a2c9fa6a06c5fb24d17a90, buildTimestamp=2020-06-17T07:03:53+0000, buildNumber=20.6.0-2289, jobName=Analytics-master, version=20.6.0-2289
+
+analytics-agent / Configuration properties: (healthy) Dynamic properties: []
+
+analytics-agent / Connection to [http://localhost:9080]: (unhealthy) Connection refused (Connection refused)
+
+analytics-agent / Controller: (unhealthy) Failed to sync during [registration]
+
+analytics-agent / Log Sources: (healthy) 
+
+analytics-agent / http:eventType:publish:bt: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / http:eventType:publish:log: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / http:receive:bt[[/v1/sinks/bt/*, /v2/sinks/bt/*]]: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / pipelines: (healthy) [16] pipeline(s). bt-publish-0: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-1: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-2: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-3: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-4: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-5: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-6: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-7: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-7: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-6: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-5: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-4: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-3: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-2: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-1: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-0: [MessageSourceStage: 1, EventServicePublishStage: 0]
+
+analytics-agent / queues: (healthy) [2] queues [[biz_txn_v1] ratio: [0.00], size: [0], capacity: [128], [log_v1] ratio: [0.00], size: [0], capacity: [128]]
+
+deadlocks: (healthy) 
+]
+[2020-07-14T17:07:04,919+02:00]  [ERROR]  [analytics-agent-sync-thread-0]  [c.a.a.agent.sync.ErrorMessageHelper]  Analytics agent failed to connect to the controller registration endpoint. This can happen when the connection is refused remotely, or when there is no process listening on the remote address/port. Please check to see if the controller address is configured correctly and is running.
+[2020-07-14T17:07:04,920+02:00]  [WARN ]  [analytics-agent-sync-thread-0]  [c.a.a.a.s.AgentSyncLifecycleManager]  Failed to successfully sync [REGISTRATION] ... retrying in [480] seconds.
+[2020-07-14T17:09:03,568+02:00]  [WARN ]  [health-report-thread-0]  [c.a.c.u.health.HealthReporterModule]  Report unhealthy [
+analytics-agent / Build information: (healthy) buildName=master-Analytics-master-20.6.0-2289, buildHash=6f03ffc324edabf568a2c9fa6a06c5fb24d17a90, buildTimestamp=2020-06-17T07:03:53+0000, buildNumber=20.6.0-2289, jobName=Analytics-master, version=20.6.0-2289
+
+analytics-agent / Configuration properties: (healthy) Dynamic properties: []
+
+analytics-agent / Connection to [http://localhost:9080]: (unhealthy) Connection refused (Connection refused)
+
+analytics-agent / Controller: (unhealthy) Failed to sync during [registration]
+
+analytics-agent / Log Sources: (healthy) 
+
+analytics-agent / http:eventType:publish:bt: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / http:eventType:publish:log: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / http:receive:bt[[/v1/sinks/bt/*, /v2/sinks/bt/*]]: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / pipelines: (healthy) [16] pipeline(s). bt-publish-0: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-1: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-2: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-3: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-4: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-5: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-6: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-7: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-7: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-6: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-5: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-4: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-3: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-2: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-1: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-0: [MessageSourceStage: 1, EventServicePublishStage: 0]
+
+analytics-agent / queues: (healthy) [2] queues [[biz_txn_v1] ratio: [0.00], size: [0], capacity: [128], [log_v1] ratio: [0.00], size: [0], capacity: [128]]
+
+deadlocks: (healthy) 
+]
+[2020-07-14T17:12:03,578+02:00]  [WARN ]  [health-report-thread-0]  [c.a.c.u.health.HealthReporterModule]  Report unhealthy [
+analytics-agent / Build information: (healthy) buildName=master-Analytics-master-20.6.0-2289, buildHash=6f03ffc324edabf568a2c9fa6a06c5fb24d17a90, buildTimestamp=2020-06-17T07:03:53+0000, buildNumber=20.6.0-2289, jobName=Analytics-master, version=20.6.0-2289
+
+analytics-agent / Configuration properties: (healthy) Dynamic properties: []
+
+analytics-agent / Connection to [http://localhost:9080]: (unhealthy) Connection refused (Connection refused)
+
+analytics-agent / Controller: (unhealthy) Failed to sync during [registration]
+
+analytics-agent / Log Sources: (healthy) 
+
+analytics-agent / http:eventType:publish:bt: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / http:eventType:publish:log: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / http:receive:bt[[/v1/sinks/bt/*, /v2/sinks/bt/*]]: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / pipelines: (healthy) [16] pipeline(s). bt-publish-0: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-1: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-2: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-3: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-4: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-5: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-6: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-7: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-7: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-6: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-5: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-4: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-3: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-2: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-1: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-0: [MessageSourceStage: 1, EventServicePublishStage: 0]
+
+analytics-agent / queues: (healthy) [2] queues [[biz_txn_v1] ratio: [0.00], size: [0], capacity: [128], [log_v1] ratio: [0.00], size: [0], capacity: [128]]
+
+deadlocks: (healthy) 
+]
+[2020-07-14T17:15:03,584+02:00]  [WARN ]  [health-report-thread-0]  [c.a.c.u.health.HealthReporterModule]  Report unhealthy [
+analytics-agent / Build information: (healthy) buildName=master-Analytics-master-20.6.0-2289, buildHash=6f03ffc324edabf568a2c9fa6a06c5fb24d17a90, buildTimestamp=2020-06-17T07:03:53+0000, buildNumber=20.6.0-2289, jobName=Analytics-master, version=20.6.0-2289
+
+analytics-agent / Configuration properties: (healthy) Dynamic properties: []
+
+analytics-agent / Connection to [http://localhost:9080]: (unhealthy) Connection refused (Connection refused)
+
+analytics-agent / Controller: (unhealthy) Failed to sync during [registration]
+
+analytics-agent / Log Sources: (healthy) 
+
+analytics-agent / http:eventType:publish:bt: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / http:eventType:publish:log: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / http:receive:bt[[/v1/sinks/bt/*, /v2/sinks/bt/*]]: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / pipelines: (healthy) [16] pipeline(s). bt-publish-0: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-1: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-2: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-3: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-4: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-5: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-6: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-7: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-7: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-6: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-5: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-4: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-3: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-2: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-1: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-0: [MessageSourceStage: 1, EventServicePublishStage: 0]
+
+analytics-agent / queues: (healthy) [2] queues [[biz_txn_v1] ratio: [0.00], size: [0], capacity: [128], [log_v1] ratio: [0.00], size: [0], capacity: [128]]
+
+deadlocks: (healthy) 
+]
+[2020-07-14T17:15:04,962+02:00]  [ERROR]  [analytics-agent-sync-thread-0]  [c.a.a.agent.sync.ErrorMessageHelper]  Analytics agent failed to connect to the controller registration endpoint. This can happen when the connection is refused remotely, or when there is no process listening on the remote address/port. Please check to see if the controller address is configured correctly and is running.
+[2020-07-14T17:15:04,963+02:00]  [WARN ]  [analytics-agent-sync-thread-0]  [c.a.a.a.s.AgentSyncLifecycleManager]  Failed to successfully sync [REGISTRATION] ... retrying in [480] seconds.
+[2020-07-14T17:18:03,592+02:00]  [WARN ]  [health-report-thread-0]  [c.a.c.u.health.HealthReporterModule]  Report unhealthy [
+analytics-agent / Build information: (healthy) buildName=master-Analytics-master-20.6.0-2289, buildHash=6f03ffc324edabf568a2c9fa6a06c5fb24d17a90, buildTimestamp=2020-06-17T07:03:53+0000, buildNumber=20.6.0-2289, jobName=Analytics-master, version=20.6.0-2289
+
+analytics-agent / Configuration properties: (healthy) Dynamic properties: []
+
+analytics-agent / Connection to [http://localhost:9080]: (unhealthy) Connection refused (Connection refused)
+
+analytics-agent / Controller: (unhealthy) Failed to sync during [registration]
+
+analytics-agent / Log Sources: (healthy) 
+
+analytics-agent / http:eventType:publish:bt: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / http:eventType:publish:log: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / http:receive:bt[[/v1/sinks/bt/*, /v2/sinks/bt/*]]: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / pipelines: (healthy) [16] pipeline(s). bt-publish-0: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-1: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-2: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-3: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-4: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-5: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-6: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-7: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-7: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-6: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-5: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-4: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-3: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-2: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-1: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-0: [MessageSourceStage: 1, EventServicePublishStage: 0]
+
+analytics-agent / queues: (healthy) [2] queues [[biz_txn_v1] ratio: [0.00], size: [0], capacity: [128], [log_v1] ratio: [0.00], size: [0], capacity: [128]]
+
+deadlocks: (healthy) 
+]
+[2020-07-14T17:21:03,603+02:00]  [WARN ]  [health-report-thread-0]  [c.a.c.u.health.HealthReporterModule]  Report unhealthy [
+analytics-agent / Build information: (healthy) buildName=master-Analytics-master-20.6.0-2289, buildHash=6f03ffc324edabf568a2c9fa6a06c5fb24d17a90, buildTimestamp=2020-06-17T07:03:53+0000, buildNumber=20.6.0-2289, jobName=Analytics-master, version=20.6.0-2289
+
+analytics-agent / Configuration properties: (healthy) Dynamic properties: []
+
+analytics-agent / Connection to [http://localhost:9080]: (unhealthy) Connection refused (Connection refused)
+
+analytics-agent / Controller: (unhealthy) Failed to sync during [registration]
+
+analytics-agent / Log Sources: (healthy) 
+
+analytics-agent / http:eventType:publish:bt: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / http:eventType:publish:log: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / http:receive:bt[[/v1/sinks/bt/*, /v2/sinks/bt/*]]: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / pipelines: (healthy) [16] pipeline(s). bt-publish-0: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-1: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-2: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-3: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-4: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-5: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-6: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-7: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-7: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-6: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-5: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-4: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-3: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-2: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-1: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-0: [MessageSourceStage: 1, EventServicePublishStage: 0]
+
+analytics-agent / queues: (healthy) [2] queues [[biz_txn_v1] ratio: [0.00], size: [0], capacity: [128], [log_v1] ratio: [0.00], size: [0], capacity: [128]]
+
+deadlocks: (healthy) 
+]
+[2020-07-14T17:23:05,003+02:00]  [ERROR]  [analytics-agent-sync-thread-0]  [c.a.a.agent.sync.ErrorMessageHelper]  Analytics agent failed to connect to the controller registration endpoint. This can happen when the connection is refused remotely, or when there is no process listening on the remote address/port. Please check to see if the controller address is configured correctly and is running.
+[2020-07-14T17:23:05,003+02:00]  [WARN ]  [analytics-agent-sync-thread-0]  [c.a.a.a.s.AgentSyncLifecycleManager]  Failed to successfully sync [REGISTRATION] ... retrying in [480] seconds.
+[2020-07-14T17:24:03,610+02:00]  [WARN ]  [health-report-thread-0]  [c.a.c.u.health.HealthReporterModule]  Report unhealthy [
+analytics-agent / Build information: (healthy) buildName=master-Analytics-master-20.6.0-2289, buildHash=6f03ffc324edabf568a2c9fa6a06c5fb24d17a90, buildTimestamp=2020-06-17T07:03:53+0000, buildNumber=20.6.0-2289, jobName=Analytics-master, version=20.6.0-2289
+
+analytics-agent / Configuration properties: (healthy) Dynamic properties: []
+
+analytics-agent / Connection to [http://localhost:9080]: (unhealthy) Connection refused (Connection refused)
+
+analytics-agent / Controller: (unhealthy) Failed to sync during [registration]
+
+analytics-agent / Log Sources: (healthy) 
+
+analytics-agent / http:eventType:publish:bt: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / http:eventType:publish:log: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / http:receive:bt[[/v1/sinks/bt/*, /v2/sinks/bt/*]]: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / pipelines: (healthy) [16] pipeline(s). bt-publish-0: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-1: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-2: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-3: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-4: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-5: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-6: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-7: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-7: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-6: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-5: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-4: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-3: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-2: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-1: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-0: [MessageSourceStage: 1, EventServicePublishStage: 0]
+
+analytics-agent / queues: (healthy) [2] queues [[biz_txn_v1] ratio: [0.00], size: [0], capacity: [128], [log_v1] ratio: [0.00], size: [0], capacity: [128]]
+
+deadlocks: (healthy) 
+]
+[2020-07-14T17:27:03,615+02:00]  [WARN ]  [health-report-thread-0]  [c.a.c.u.health.HealthReporterModule]  Report unhealthy [
+analytics-agent / Build information: (healthy) buildName=master-Analytics-master-20.6.0-2289, buildHash=6f03ffc324edabf568a2c9fa6a06c5fb24d17a90, buildTimestamp=2020-06-17T07:03:53+0000, buildNumber=20.6.0-2289, jobName=Analytics-master, version=20.6.0-2289
+
+analytics-agent / Configuration properties: (healthy) Dynamic properties: []
+
+analytics-agent / Connection to [http://localhost:9080]: (unhealthy) Connection refused (Connection refused)
+
+analytics-agent / Controller: (unhealthy) Failed to sync during [registration]
+
+analytics-agent / Log Sources: (healthy) 
+
+analytics-agent / http:eventType:publish:bt: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / http:eventType:publish:log: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / http:receive:bt[[/v1/sinks/bt/*, /v2/sinks/bt/*]]: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / pipelines: (healthy) [16] pipeline(s). bt-publish-0: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-1: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-2: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-3: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-4: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-5: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-6: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-7: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-7: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-6: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-5: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-4: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-3: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-2: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-1: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-0: [MessageSourceStage: 1, EventServicePublishStage: 0]
+
+analytics-agent / queues: (healthy) [2] queues [[biz_txn_v1] ratio: [0.00], size: [0], capacity: [128], [log_v1] ratio: [0.00], size: [0], capacity: [128]]
+
+deadlocks: (healthy) 
+]
+[2020-07-14T17:30:03,622+02:00]  [WARN ]  [health-report-thread-0]  [c.a.c.u.health.HealthReporterModule]  Report unhealthy [
+analytics-agent / Build information: (healthy) buildName=master-Analytics-master-20.6.0-2289, buildHash=6f03ffc324edabf568a2c9fa6a06c5fb24d17a90, buildTimestamp=2020-06-17T07:03:53+0000, buildNumber=20.6.0-2289, jobName=Analytics-master, version=20.6.0-2289
+
+analytics-agent / Configuration properties: (healthy) Dynamic properties: []
+
+analytics-agent / Connection to [http://localhost:9080]: (unhealthy) Connection refused (Connection refused)
+
+analytics-agent / Controller: (unhealthy) Failed to sync during [registration]
+
+analytics-agent / Log Sources: (healthy) 
+
+analytics-agent / http:eventType:publish:bt: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / http:eventType:publish:log: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / http:receive:bt[[/v1/sinks/bt/*, /v2/sinks/bt/*]]: (healthy) Rates (Avg per second. Avg of last 5 min) success: [0.000000], user error: [0.000000], timeout: [0.000000], error: [0.000000]
+
+analytics-agent / pipelines: (healthy) [16] pipeline(s). bt-publish-0: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-1: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-2: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-3: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-4: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-5: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-6: [MessageSourceStage: 1, EventServicePublishStage: 0],    bt-publish-7: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-7: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-6: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-5: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-4: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-3: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-2: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-1: [MessageSourceStage: 1, EventServicePublishStage: 0],    log-publish-0: [MessageSourceStage: 1, EventServicePublishStage: 0]
+
+analytics-agent / queues: (healthy) [2] queues [[biz_txn_v1] ratio: [0.00], size: [0], capacity: [128], [log_v1] ratio: [0.00], size: [0], capacity: [128]]
+
+deadlocks: (healthy) 
+]
+[2020-07-14T17:30:44,331+02:00]  [INFO ]  [Thread-14]  [c.a.common.framework.util.SimpleApp]  Stopping [analytics-agent]
+[2020-07-14T17:30:44,345+02:00]  [INFO ]  [Thread-14]  [o.e.jetty.server.AbstractConnector]  Stopped application@7e5293ba{HTTP/1.1,[http/1.1]}{0.0.0.0:9090}
+[2020-07-14T17:30:44,346+02:00]  [INFO ]  [Thread-14]  [o.e.jetty.server.AbstractConnector]  Stopped admin@5787ee2e{HTTP/1.1,[http/1.1]}{0.0.0.0:9091}
+[2020-07-14T17:30:44,349+02:00]  [INFO ]  [Thread-14]  [o.e.j.server.handler.ContextHandler]  Stopped i.d.j.MutableServletContextHandler@626e77e0{/,null,UNAVAILABLE}
+[2020-07-14T17:30:44,386+02:00]  [INFO ]  [Thread-14]  [o.e.j.server.handler.ContextHandler]  Stopped i.d.j.MutableServletContextHandler@1e402292{/,null,UNAVAILABLE}
+[2020-07-14T17:30:44,388+02:00]  [INFO ]  [Thread-14]  [c.a.a.a.s.AgentSyncLifecycleManager]  Stopping analytics agent sync life cycle manager.
+[2020-07-14T17:30:45,388+02:00]  [WARN ]  [Thread-14]  [c.a.a.a.s.AgentSyncLifecycleManager]  Thread pool will be forcibly stopped now if it has not already stopped
+[2020-07-14T17:30:45,389+02:00]  [INFO ]  [analytics-agent-sync-thread-0]  [c.a.a.a.s.AgentSyncLifecycleManager]  Analytics agent syncing thread is shutting down.
+[2020-07-14T17:30:45,389+02:00]  [INFO ]  [Thread-14]  [c.a.a.a.s.AgentSyncLifecycleManager]  Successfully stopped the analytics agent sync life cycle manager.
+[2020-07-14T17:30:45,390+02:00]  [INFO ]  [Thread-14]  [c.a.a.a.field.ExtractedFieldsPoller]  Extracted fields poller stopped
+[2020-07-14T17:30:45,390+02:00]  [INFO ]  [Thread-14]  [c.a.common.util.event.EventBuses]  Stopped
+[2020-07-14T17:30:45,891+02:00]  [INFO ]  [Thread-14]  [c.a.analytics.agent.base.LogBase]  Stopping [Log Sources]
+[2020-07-14T17:30:45,891+02:00]  [INFO ]  [Thread-14]  [c.a.analytics.agent.base.LogBase]  Stopping [Watermark Manager]
+[2020-07-14T17:30:45,894+02:00]  [INFO ]  [Thread-14]  [c.a.common.io.server.Servers]  Stopping all [network:server]
+[2020-07-14T17:30:45,894+02:00]  [INFO ]  [Thread-14]  [c.a.common.io.server.Servers]  Stopped all [network:server]
+[2020-07-14T17:30:45,894+02:00]  [INFO ]  [Thread-14]  [c.a.a.pipeline.framework.Pipelines]  Attempting to stop pipelines
+[2020-07-14T17:30:45,899+02:00]  [INFO ]  [Thread-14]  [c.a.a.pipeline.framework.Pipeline]  Stopped pipeline [bt-publish-0]
+[2020-07-14T17:30:45,905+02:00]  [INFO ]  [Thread-14]  [c.a.a.pipeline.framework.Pipeline]  Stopped pipeline [bt-publish-1]
+[2020-07-14T17:30:45,910+02:00]  [INFO ]  [Thread-14]  [c.a.a.pipeline.framework.Pipeline]  Stopped pipeline [bt-publish-2]
+[2020-07-14T17:30:45,915+02:00]  [INFO ]  [Thread-14]  [c.a.a.pipeline.framework.Pipeline]  Stopped pipeline [bt-publish-3]
+[2020-07-14T17:30:45,921+02:00]  [INFO ]  [Thread-14]  [c.a.a.pipeline.framework.Pipeline]  Stopped pipeline [bt-publish-4]
+[2020-07-14T17:30:45,926+02:00]  [INFO ]  [Thread-14]  [c.a.a.pipeline.framework.Pipeline]  Stopped pipeline [bt-publish-5]
+[2020-07-14T17:30:45,932+02:00]  [INFO ]  [Thread-14]  [c.a.a.pipeline.framework.Pipeline]  Stopped pipeline [bt-publish-6]
+[2020-07-14T17:30:45,938+02:00]  [INFO ]  [Thread-14]  [c.a.a.pipeline.framework.Pipeline]  Stopped pipeline [bt-publish-7]
+[2020-07-14T17:30:45,943+02:00]  [INFO ]  [Thread-14]  [c.a.a.pipeline.framework.Pipeline]  Stopped pipeline [log-publish-7]
+[2020-07-14T17:30:45,948+02:00]  [INFO ]  [Thread-14]  [c.a.a.pipeline.framework.Pipeline]  Stopped pipeline [log-publish-6]
+[2020-07-14T17:30:45,954+02:00]  [INFO ]  [Thread-14]  [c.a.a.pipeline.framework.Pipeline]  Stopped pipeline [log-publish-5]
+[2020-07-14T17:30:45,959+02:00]  [INFO ]  [Thread-14]  [c.a.a.pipeline.framework.Pipeline]  Stopped pipeline [log-publish-4]
+[2020-07-14T17:30:45,964+02:00]  [INFO ]  [Thread-14]  [c.a.a.pipeline.framework.Pipeline]  Stopped pipeline [log-publish-3]
+[2020-07-14T17:30:45,970+02:00]  [INFO ]  [Thread-14]  [c.a.a.pipeline.framework.Pipeline]  Stopped pipeline [log-publish-2]
+[2020-07-14T17:30:45,975+02:00]  [INFO ]  [Thread-14]  [c.a.a.pipeline.framework.Pipeline]  Stopped pipeline [log-publish-1]
+[2020-07-14T17:30:45,981+02:00]  [INFO ]  [Thread-14]  [c.a.a.pipeline.framework.Pipeline]  Stopped pipeline [log-publish-0]
+[2020-07-14T17:30:45,982+02:00]  [INFO ]  [Thread-14]  [c.a.a.pipeline.framework.Pipelines]  Pipelines have stopped
+[2020-07-14T17:30:46,983+02:00]  [WARN ]  [Thread-14]  [c.a.c.u.health.HealthReporterModule]  Task will be forcibly stopped now if it has not already stopped
+[2020-07-14T17:30:46,983+02:00]  [INFO ]  [Thread-14]  [c.a.c.u.health.HealthReporterModule]  Stopped
+[2020-07-14T17:30:46,986+02:00]  [INFO ]  [Thread-14]  [c.a.common.framework.util.SimpleApp]  Stopped [analytics-agent]

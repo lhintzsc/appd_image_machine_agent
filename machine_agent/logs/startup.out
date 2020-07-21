@@ -1,0 +1,131 @@
+Using Java Version [1.8.0_252] for Agent
+Using Agent Version [Machine Agent v20.6.0-2676 GA compatible with 4.4.1.0 Build Date 2020-06-23 08:07:30]
+ERROR StatusLogger Reconfiguration failed: No configuration found for '3d4eac69' at 'null' in 'null'
+[INFO] Agent logging directory set to: [/opt/appd/machine_agent/logs]
+Machine Agent Install Directory :/opt/appd/machine_agent
+Machine Agent Temp Directory :/opt/appd/machine_agent/tmp
+Tasks Root Directory :/opt/appd/machine_agent/controlchannel
+Redirecting all logging statements to the configured logger
+Started AppDynamics Machine Agent Successfully.
+Using Java Version [1.8.0_252] for Agent
+Using Agent Version [Machine Agent v20.6.0-2676 GA compatible with 4.4.1.0 Build Date 2020-06-23 08:07:30]
+ERROR StatusLogger Reconfiguration failed: No configuration found for '3d4eac69' at 'null' in 'null'
+[INFO] Agent logging directory set to: [/opt/appd/machine_agent/logs]
+Machine Agent Install Directory :/opt/appd/machine_agent
+Machine Agent Temp Directory :/opt/appd/machine_agent/tmp
+Tasks Root Directory :/opt/appd/machine_agent/controlchannel
+Redirecting all logging statements to the configured logger
+17:00:00.998 [system-thread-0] DEBUG com.appdynamics.common.framework.util.EmbeddedModeSecurityManager - Installed
+17:00:01.007 [system-thread-0] INFO com.appdynamics.analytics.agent.AnalyticsAgent - Starting analytics agent with arguments [-p, /opt/appd/machine_agent/monitors/analytics-agent/conf/analytics-agent.properties, -yr, analytics-agent.yml]
+Started AppDynamics Machine Agent Successfully.
+Using Java Version [1.8.0_252] for Agent
+Using Agent Version [Machine Agent v20.6.0-2676 GA compatible with 4.4.1.0 Build Date 2020-06-23 08:07:30]
+ERROR StatusLogger Reconfiguration failed: No configuration found for '3d4eac69' at 'null' in 'null'
+[INFO] Agent logging directory set to: [/opt/appd/machine_agent/logs]
+Machine Agent Install Directory :/opt/appd/machine_agent
+Machine Agent Temp Directory :/opt/appd/machine_agent/tmp
+Tasks Root Directory :/opt/appd/machine_agent/controlchannel
+Redirecting all logging statements to the configured logger
+Started AppDynamics Machine Agent Successfully.
+Using Java Version [1.8.0_252] for Agent
+Using Agent Version [Machine Agent v20.6.0-2676 GA compatible with 4.4.1.0 Build Date 2020-06-23 08:07:30]
+ERROR StatusLogger Reconfiguration failed: No configuration found for '3d4eac69' at 'null' in 'null'
+[INFO] Agent logging directory set to: [/opt/appd/machine_agent/logs]
+Could not start up the machine agent due to: Failed to get a response from /info using a GET request.  The error encountered is: java.net.SocketException: Permission denied
+Please see startup.log in the current working directory for details.
+Using Java Version [1.8.0_252] for Agent
+Using Agent Version [Machine Agent v20.6.0-2676 GA compatible with 4.4.1.0 Build Date 2020-06-23 08:07:30]
+ERROR StatusLogger Reconfiguration failed: No configuration found for '3d4eac69' at 'null' in 'null'
+[INFO] Agent logging directory set to: [/opt/appd/machine_agent/logs]
+Could not start up the machine agent due to: Failed to get a response from /info using a GET request.  The error encountered is: java.net.SocketException: Permission denied
+Please see startup.log in the current working directory for details.
+Using Java Version [1.8.0_252] for Agent
+Using Agent Version [Machine Agent v20.6.0-2676 GA compatible with 4.4.1.0 Build Date 2020-06-23 08:07:30]
+ERROR StatusLogger Reconfiguration failed: No configuration found for '3d4eac69' at 'null' in 'null'
+[INFO] Agent logging directory set to: [/opt/appd/machine_agent/logs]
+Machine Agent Install Directory :/opt/appd/machine_agent
+Machine Agent Temp Directory :/opt/appd/machine_agent/tmp
+Tasks Root Directory :/opt/appd/machine_agent/controlchannel
+Redirecting all logging statements to the configured logger
+Started AppDynamics Machine Agent Successfully.
+Using Java Version [1.8.0_252] for Agent
+Using Agent Version [Machine Agent v20.6.0-2676 GA compatible with 4.4.1.0 Build Date 2020-06-23 08:07:30]
+ERROR StatusLogger Reconfiguration failed: No configuration found for '3d4eac69' at 'null' in 'null'
+[INFO] Agent logging directory set to: [/opt/appd/machine_agent/logs]
+Could not start up the machine agent due to: Failed to get a response from /info using a GET request.  The error encountered is: java.net.SocketException: Permission denied
+Please see startup.log in the current working directory for details.
+Using Java Version [1.8.0_252] for Agent
+Using Agent Version [Machine Agent v20.6.0-2676 GA compatible with 4.4.1.0 Build Date 2020-06-23 08:07:30]
+ERROR StatusLogger Reconfiguration failed: No configuration found for '3d4eac69' at 'null' in 'null'
+[INFO] Agent logging directory set to: [/opt/appd/machine_agent/logs]
+Machine Agent Install Directory :/opt/appd/machine_agent
+Machine Agent Temp Directory :/opt/appd/machine_agent/tmp
+Tasks Root Directory :/opt/appd/machine_agent/controlchannel
+Redirecting all logging statements to the configured logger
+Started AppDynamics Machine Agent Successfully.
+Using Java Version [1.8.0_252] for Agent
+Using Agent Version [Machine Agent v20.6.0-2676 GA compatible with 4.4.1.0 Build Date 2020-06-23 08:07:30]
+ERROR StatusLogger Reconfiguration failed: No configuration found for '3d4eac69' at 'null' in 'null'
+[INFO] Agent logging directory set to: [/opt/appd/machine_agent/logs]
+Could not start up the machine agent due to: Failed to get a response from /info using a GET request.  The error encountered is: java.net.SocketException: Permission denied
+Please see startup.log in the current working directory for details.
+Using Java Version [1.8.0_252] for Agent
+Using Agent Version [Machine Agent v20.6.0-2676 GA compatible with 4.4.1.0 Build Date 2020-06-23 08:07:30]
+ERROR StatusLogger Reconfiguration failed: No configuration found for '3d4eac69' at 'null' in 'null'
+[INFO] Agent logging directory set to: [/opt/appd/machine_agent/logs]
+Machine Agent Install Directory :/opt/appd/machine_agent
+Machine Agent Temp Directory :/opt/appd/machine_agent/tmp
+Tasks Root Directory :/opt/appd/machine_agent/controlchannel
+Redirecting all logging statements to the configured logger
+Started AppDynamics Machine Agent Successfully.
+Using Java Version [1.8.0_252] for Agent
+Using Agent Version [Machine Agent v20.6.0-2676 GA compatible with 4.4.1.0 Build Date 2020-06-23 08:07:30]
+ERROR StatusLogger Reconfiguration failed: No configuration found for '3d4eac69' at 'null' in 'null'
+[INFO] Agent logging directory set to: [/opt/appd/machine_agent/logs]
+Machine Agent Install Directory :/opt/appd/machine_agent
+Machine Agent Temp Directory :/opt/appd/machine_agent/tmp
+Tasks Root Directory :/opt/appd/machine_agent/controlchannel
+Redirecting all logging statements to the configured logger
+Started AppDynamics Machine Agent Successfully.
+Using Java Version [1.8.0_252] for Agent
+Using Agent Version [Machine Agent v20.6.0-2676 GA compatible with 4.4.1.0 Build Date 2020-06-23 08:07:30]
+ERROR StatusLogger Reconfiguration failed: No configuration found for '3d4eac69' at 'null' in 'null'
+[INFO] Agent logging directory set to: [/opt/appd/machine_agent/logs]
+Machine Agent Install Directory :/opt/appd/machine_agent
+Machine Agent Temp Directory :/opt/appd/machine_agent/tmp
+Tasks Root Directory :/opt/appd/machine_agent/controlchannel
+Redirecting all logging statements to the configured logger
+Started AppDynamics Machine Agent Successfully.
+Using Java Version [1.8.0_252] for Agent
+Using Agent Version [Machine Agent v20.6.0-2676 GA compatible with 4.4.1.0 Build Date 2020-06-23 08:07:30]
+ERROR StatusLogger Reconfiguration failed: No configuration found for '3d4eac69' at 'null' in 'null'
+[INFO] Agent logging directory set to: [/opt/appd/machine_agent/logs]
+Machine Agent Install Directory :/opt/appd/machine_agent
+Machine Agent Temp Directory :/opt/appd/machine_agent/tmp
+Tasks Root Directory :/opt/appd/machine_agent/controlchannel
+Redirecting all logging statements to the configured logger
+Started AppDynamics Machine Agent Successfully.
+Machine Agent Install Directory :/opt/appd/machine_agent
+Machine Agent Temp Directory :/opt/appd/machine_agent/tmp
+Tasks Root Directory :/opt/appd/machine_agent/controlchannel
+Redirecting all logging statements to the configured logger
+Started AppDynamics Machine Agent Successfully.
+Using Java Version [1.8.0_252] for Agent
+Using Agent Version [Machine Agent v20.6.0-2676 GA compatible with 4.4.1.0 Build Date 2020-06-23 08:07:30]
+ERROR StatusLogger Reconfiguration failed: No configuration found for '3d4eac69' at 'null' in 'null'
+[INFO] Agent logging directory set to: [/opt/appd/machine_agent/logs]
+Machine Agent Install Directory :/opt/appd/machine_agent
+Machine Agent Temp Directory :/opt/appd/machine_agent/tmp
+Tasks Root Directory :/opt/appd/machine_agent/controlchannel
+Redirecting all logging statements to the configured logger
+Started AppDynamics Machine Agent Successfully.
+Machine Agent Install Directory :/opt/appd/machine_agent
+Machine Agent Temp Directory :/opt/appd/machine_agent/tmp
+Tasks Root Directory :/opt/appd/machine_agent/controlchannel
+Redirecting all logging statements to the configured logger
+Started AppDynamics Machine Agent Successfully.
+Machine Agent Install Directory :/opt/appd/machine_agent
+Machine Agent Temp Directory :/opt/appd/machine_agent/tmp
+Tasks Root Directory :/opt/appd/machine_agent/controlchannel
+Redirecting all logging statements to the configured logger
+Started AppDynamics Machine Agent Successfully.

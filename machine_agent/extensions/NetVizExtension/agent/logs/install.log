@@ -1,0 +1,100 @@
+stop.sh: Tue Jul 14 16:25:10 CEST 2020: INFO: Running command: /opt/appd/machine_agent/extensions/NetVizExtension/agent/bin/appd-netviz.sh stop
+appd-netviz.sh: Tue Jul 14 16:25:10 CEST 2020: INFO: Running appd-netviz.sh script in /opt/appd/machine_agent/extensions/NetVizExtension/agent
+appd-netviz.sh: Tue Jul 14 16:25:10 CEST 2020: INFO: NetViz Agent  20.6.0-2146 x86_64 2020-06-17 20:47:35 UTC
+appd-netviz.sh: Tue Jul 14 16:25:10 CEST 2020: INFO: Running stop script
+appd-netviz.sh: Tue Jul 14 16:25:10 CEST 2020: INFO: AppDynamics Network Monitoring appd-netviz is not running
+stop.sh: Tue Jul 14 16:33:13 CEST 2020: INFO: Running command: /opt/appd/machine_agent/extensions/NetVizExtension/agent/bin/appd-netviz.sh stop
+appd-netviz.sh: Tue Jul 14 16:33:13 CEST 2020: INFO: Running appd-netviz.sh script in /opt/appd/machine_agent/extensions/NetVizExtension/agent
+appd-netviz.sh: Tue Jul 14 16:33:13 CEST 2020: INFO: NetViz Agent  20.6.0-2146 x86_64 2020-06-17 20:47:35 UTC
+appd-netviz.sh: Tue Jul 14 16:33:13 CEST 2020: INFO: Running stop script
+appd-netviz.sh: Tue Jul 14 16:33:13 CEST 2020: INFO: AppDynamics Network Monitoring appd-netviz is not running
+stop.sh: Tue Jul 14 17:00:31 CEST 2020: INFO: Running command: /opt/appd/machine_agent/extensions/NetVizExtension/agent/bin/appd-netviz.sh stop
+appd-netviz.sh: Tue Jul 14 17:00:31 CEST 2020: INFO: Running appd-netviz.sh script in /opt/appd/machine_agent/extensions/NetVizExtension/agent
+appd-netviz.sh: Tue Jul 14 17:00:31 CEST 2020: INFO: NetViz Agent  20.6.0-2146 x86_64 2020-06-17 20:47:35 UTC
+appd-netviz.sh: Tue Jul 14 17:00:31 CEST 2020: INFO: Running stop script
+appd-netviz.sh: Tue Jul 14 17:00:31 CEST 2020: INFO: AppDynamics Network Monitoring appd-netviz is not running
+stop.sh: Tue Jul 14 17:31:27 CEST 2020: INFO: Running command: /opt/appd/machine_agent/extensions/NetVizExtension/agent/bin/appd-netviz.sh stop
+appd-netviz.sh: Tue Jul 14 17:31:27 CEST 2020: INFO: Running appd-netviz.sh script in /opt/appd/machine_agent/extensions/NetVizExtension/agent
+appd-netviz.sh: Tue Jul 14 17:31:27 CEST 2020: INFO: NetViz Agent  20.6.0-2146 x86_64 2020-06-17 20:47:35 UTC
+appd-netviz.sh: Tue Jul 14 17:31:27 CEST 2020: INFO: Running stop script
+appd-netviz.sh: Tue Jul 14 17:31:27 CEST 2020: INFO: AppDynamics Network Monitoring appd-netviz is not running
+stop.sh: Tue Jul 14 17:44:05 CEST 2020: INFO: Running command: /opt/appd/machine_agent/extensions/NetVizExtension/agent/bin/appd-netviz.sh stop
+appd-netviz.sh: Tue Jul 14 17:44:05 CEST 2020: INFO: Running appd-netviz.sh script in /opt/appd/machine_agent/extensions/NetVizExtension/agent
+appd-netviz.sh: Tue Jul 14 17:44:05 CEST 2020: INFO: NetViz Agent  20.6.0-2146 x86_64 2020-06-17 20:47:35 UTC
+appd-netviz.sh: Tue Jul 14 17:44:05 CEST 2020: INFO: Running stop script
+appd-netviz.sh: Tue Jul 14 17:44:05 CEST 2020: INFO: AppDynamics Network Monitoring appd-netviz is not running
+stop.sh: Tue Jul 14 17:45:50 CEST 2020: INFO: Running command: /opt/appd/machine_agent/extensions/NetVizExtension/agent/bin/appd-netviz.sh stop
+appd-netviz.sh: Tue Jul 14 17:45:50 CEST 2020: INFO: Running appd-netviz.sh script in /opt/appd/machine_agent/extensions/NetVizExtension/agent
+appd-netviz.sh: Tue Jul 14 17:45:50 CEST 2020: INFO: NetViz Agent  20.6.0-2146 x86_64 2020-06-17 20:47:35 UTC
+appd-netviz.sh: Tue Jul 14 17:45:50 CEST 2020: INFO: Running stop script
+appd-netviz.sh: Tue Jul 14 17:45:50 CEST 2020: INFO: AppDynamics Network Monitoring appd-netviz is not running
+stop.sh: Wed Jul 15 09:38:06 CEST 2020: INFO: Running command: /opt/appd/machine_agent/extensions/NetVizExtension/agent/bin/appd-netviz.sh stop
+appd-netviz.sh: Wed Jul 15 09:38:07 CEST 2020: INFO: Running appd-netviz.sh script in /opt/appd/machine_agent/extensions/NetVizExtension/agent
+appd-netviz.sh: Wed Jul 15 09:38:07 CEST 2020: INFO: NetViz Agent  20.6.0-2146 x86_64 2020-06-17 20:47:35 UTC
+appd-netviz.sh: Wed Jul 15 09:38:07 CEST 2020: INFO: Running stop script
+appd-netviz.sh: Wed Jul 15 09:38:07 CEST 2020: INFO: AppDynamics Network Monitoring appd-netviz is not running
+install.sh: Wed Jul 15 09:48:16 CEST 2020: INFO: Setting capabilities on /opt/appd/machine_agent/extensions/NetVizExtension/agent/bin/appd-netagent
+install.sh: Wed Jul 15 09:48:16 CEST 2020: INFO: Installation successful
+start.sh: Wed Jul 15 09:48:34 CEST 2020: INFO: Running the start script as part of bundle
+start.sh: Wed Jul 15 09:48:34 CEST 2020: INFO: Running command: /opt/appd/machine_agent/extensions/NetVizExtension/agent/bin/appd-netviz.sh start -p 9212
+appd-netviz.sh: Wed Jul 15 09:48:34 CEST 2020: INFO: Running appd-netviz.sh script in /opt/appd/machine_agent/extensions/NetVizExtension/agent
+appd-netviz.sh: Wed Jul 15 09:48:34 CEST 2020: INFO: NetViz Agent  20.6.0-2146 x86_64 2020-06-17 20:47:35 UTC
+appd-netviz.sh: Wed Jul 15 09:48:34 CEST 2020: INFO: Running start script
+appd-netviz.sh: Wed Jul 15 09:48:34 CEST 2020: INFO: running with capabilities set for the agent
+appd-netviz.sh: Wed Jul 15 09:48:34 CEST 2020: INFO: Starting AppDynamics Network Monitoring appd-netviz...
+appd-netviz.sh: Wed Jul 15 09:48:39 CEST 2020: INFO: appd-netviz running.. 
+start.sh: Wed Jul 15 09:50:07 CEST 2020: INFO: Running the start script as part of bundle
+start.sh: Wed Jul 15 09:50:07 CEST 2020: INFO: Running command: /opt/appd/machine_agent/extensions/NetVizExtension/agent/bin/appd-netviz.sh start -p 4626
+appd-netviz.sh: Wed Jul 15 09:50:07 CEST 2020: INFO: Running appd-netviz.sh script in /opt/appd/machine_agent/extensions/NetVizExtension/agent
+appd-netviz.sh: Wed Jul 15 09:50:07 CEST 2020: INFO: NetViz Agent  20.6.0-2146 x86_64 2020-06-17 20:47:35 UTC
+appd-netviz.sh: Wed Jul 15 09:50:07 CEST 2020: INFO: Running start script
+appd-netviz.sh: Wed Jul 15 09:50:07 CEST 2020: INFO: running with capabilities set for the agent
+appd-netviz.sh: Wed Jul 15 09:50:07 CEST 2020: INFO: Starting AppDynamics Network Monitoring appd-netviz...
+appd-netviz.sh: Wed Jul 15 09:50:12 CEST 2020: INFO: appd-netviz running.. 
+install.sh: Wed Jul 15 10:20:34 CEST 2020: INFO: Setting capabilities on /opt/appd/machine_agent/extensions/NetVizExtension/agent/bin/appd-netagent
+install.sh: Wed Jul 15 10:20:34 CEST 2020: INFO: Installation successful
+start.sh: Wed Jul 15 10:21:28 CEST 2020: INFO: Running the start script as part of bundle
+start.sh: Wed Jul 15 10:21:28 CEST 2020: INFO: Running command: /opt/appd/machine_agent/extensions/NetVizExtension/agent/bin/appd-netviz.sh start -p 20252
+appd-netviz.sh: Wed Jul 15 10:21:28 CEST 2020: INFO: Running appd-netviz.sh script in /opt/appd/machine_agent/extensions/NetVizExtension/agent
+appd-netviz.sh: Wed Jul 15 10:21:28 CEST 2020: INFO: NetViz Agent  20.6.0-2146 x86_64 2020-06-17 20:47:35 UTC
+appd-netviz.sh: Wed Jul 15 10:21:28 CEST 2020: INFO: Running start script
+appd-netviz.sh: Wed Jul 15 10:21:28 CEST 2020: INFO: running with capabilities set for the agent
+appd-netviz.sh: Wed Jul 15 10:21:28 CEST 2020: INFO: Starting AppDynamics Network Monitoring appd-netviz...
+appd-netviz.sh: Wed Jul 15 10:21:33 CEST 2020: INFO: appd-netviz running.. 
+start.sh: Wed Jul 15 14:18:31 CEST 2020: INFO: Running the start script as part of bundle
+start.sh: Wed Jul 15 14:18:31 CEST 2020: INFO: Running command: /opt/appd/machine_agent/extensions/NetVizExtension/agent/bin/appd-netviz.sh start -p 19025
+appd-netviz.sh: Wed Jul 15 14:18:31 CEST 2020: INFO: Running appd-netviz.sh script in /opt/appd/machine_agent/extensions/NetVizExtension/agent
+appd-netviz.sh: Wed Jul 15 14:18:31 CEST 2020: INFO: NetViz Agent  20.6.0-2146 x86_64 2020-06-17 20:47:35 UTC
+appd-netviz.sh: Wed Jul 15 14:18:31 CEST 2020: INFO: Running start script
+appd-netviz.sh: Wed Jul 15 14:18:31 CEST 2020: INFO: running with capabilities set for the agent
+appd-netviz.sh: Wed Jul 15 14:18:31 CEST 2020: INFO: Starting AppDynamics Network Monitoring appd-netviz...
+appd-netviz.sh: Wed Jul 15 14:18:36 CEST 2020: INFO: appd-netviz running.. 
+start.sh: Thu Jul 16 08:37:59 CEST 2020: INFO: Running the start script as part of bundle
+start.sh: Thu Jul 16 08:37:59 CEST 2020: INFO: Running command: /opt/appd/machine_agent/extensions/NetVizExtension/agent/bin/appd-netviz.sh start -p 19025
+appd-netviz.sh: Thu Jul 16 08:37:59 CEST 2020: INFO: Running appd-netviz.sh script in /opt/appd/machine_agent/extensions/NetVizExtension/agent
+appd-netviz.sh: Thu Jul 16 08:37:59 CEST 2020: INFO: NetViz Agent  20.6.0-2146 x86_64 2020-06-17 20:47:35 UTC
+appd-netviz.sh: Thu Jul 16 08:37:59 CEST 2020: INFO: Running start script
+appd-netviz.sh: Thu Jul 16 08:37:59 CEST 2020: INFO: running with capabilities set for the agent
+appd-netviz.sh: Thu Jul 16 08:37:59 CEST 2020: INFO: AppDynamics Network Monitoring appd-netviz already running
+start.sh: Thu Jul 16 08:47:47 CEST 2020: INFO: Running the start script as part of bundle
+start.sh: Thu Jul 16 08:47:47 CEST 2020: INFO: Running command: /opt/appd/machine_agent/extensions/NetVizExtension/agent/bin/appd-netviz.sh start -p 11786
+appd-netviz.sh: Thu Jul 16 08:47:47 CEST 2020: INFO: Running appd-netviz.sh script in /opt/appd/machine_agent/extensions/NetVizExtension/agent
+appd-netviz.sh: Thu Jul 16 08:47:47 CEST 2020: INFO: NetViz Agent  20.6.0-2146 x86_64 2020-06-17 20:47:35 UTC
+appd-netviz.sh: Thu Jul 16 08:47:47 CEST 2020: INFO: Running start script
+appd-netviz.sh: Thu Jul 16 08:47:47 CEST 2020: INFO: running with capabilities set for the agent
+appd-netviz.sh: Thu Jul 16 08:47:47 CEST 2020: INFO: Starting AppDynamics Network Monitoring appd-netviz...
+appd-netviz.sh: Thu Jul 16 08:47:52 CEST 2020: INFO: appd-netviz running.. 
+start.sh: Thu Jul 16 09:10:16 CEST 2020: INFO: Running the start script as part of bundle
+start.sh: Thu Jul 16 09:10:16 CEST 2020: INFO: Running command: /opt/appd/machine_agent/extensions/NetVizExtension/agent/bin/appd-netviz.sh start -p 11786
+appd-netviz.sh: Thu Jul 16 09:10:16 CEST 2020: INFO: Running appd-netviz.sh script in /opt/appd/machine_agent/extensions/NetVizExtension/agent
+appd-netviz.sh: Thu Jul 16 09:10:16 CEST 2020: INFO: NetViz Agent  20.6.0-2146 x86_64 2020-06-17 20:47:35 UTC
+appd-netviz.sh: Thu Jul 16 09:10:16 CEST 2020: INFO: Running start script
+appd-netviz.sh: Thu Jul 16 09:10:17 CEST 2020: INFO: running with capabilities set for the agent
+appd-netviz.sh: Thu Jul 16 09:10:17 CEST 2020: INFO: AppDynamics Network Monitoring appd-netviz already running
+start.sh: Thu Jul 16 09:19:16 CEST 2020: INFO: Running the start script as part of bundle
+start.sh: Thu Jul 16 09:19:16 CEST 2020: INFO: Running command: /opt/appd/machine_agent/extensions/NetVizExtension/agent/bin/appd-netviz.sh start -p 11786
+appd-netviz.sh: Thu Jul 16 09:19:16 CEST 2020: INFO: Running appd-netviz.sh script in /opt/appd/machine_agent/extensions/NetVizExtension/agent
+appd-netviz.sh: Thu Jul 16 09:19:16 CEST 2020: INFO: NetViz Agent  20.6.0-2146 x86_64 2020-06-17 20:47:35 UTC
+appd-netviz.sh: Thu Jul 16 09:19:16 CEST 2020: INFO: Running start script
+appd-netviz.sh: Thu Jul 16 09:19:16 CEST 2020: INFO: running with capabilities set for the agent
+appd-netviz.sh: Thu Jul 16 09:19:16 CEST 2020: INFO: AppDynamics Network Monitoring appd-netviz already running

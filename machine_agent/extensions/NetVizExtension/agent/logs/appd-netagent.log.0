@@ -1,0 +1,443 @@
+2020-07-15 09:48:34 INFO Logging infra initialized...
+2020-07-15 09:48:34 INFO [Timer] module initialized
+2020-07-15 09:48:34 INFO nmem_pool_create: memory pool created for kvm of 74752 objects
+2020-07-15 09:48:34 INFO nmem_pool_create: memory pool created for kvs of 65536 objects
+2020-07-15 09:48:34 INFO [npm_config] Module configuration...
+2020-07-15 09:48:34 INFO [export_config] Module configuration...
+2020-07-15 09:48:34 INFO [Export] to files initialized
+2020-07-15 09:48:34 INFO Curl module initialized
+2020-07-15 09:48:34 INFO [NetLib] Initializing ...
+2020-07-15 09:48:34 INFO [NetLib] Initialized
+2020-07-15 09:48:34 INFO nmem_pool_create: memory pool created for mbuf of 4 objects
+2020-07-15 09:48:34 INFO Initialized pattern matching engine
+2020-07-15 09:48:34 INFO Registered PCRE module
+2020-07-15 09:48:34 INFO dissector_mod_init: Dissector module init
+2020-07-15 09:48:34 INFO [pcap] Device module registered...
+2020-07-15 09:48:34 INFO [adns_resolver_init]: Starting Async DNS resolution thread
+2020-07-15 09:48:34 INFO [ip_config] Module configuration...
+2020-07-15 09:48:34 INFO nmem_pool_create: memory pool created for ip_hostcache of 2048 objects
+2020-07-15 09:48:34 INFO [dpi_config] Module configuration...
+2020-07-15 09:48:34 INFO nmem_pool_create: memory pool created for netlib_msg of 65536 objects
+2020-07-15 09:48:34 INFO MsgZmq: publisher ZMQ socket opened 0x7faa400038a0
+2020-07-15 09:48:34 INFO MsgZmq::Bind: dest:ipc:///opt/appd/machine_agent/extensions/NetVizExtension/agent/run/appd-netlib.sock
+2020-07-15 09:48:34 INFO MsgZmq: publisher ZMQ socket opened 0x7faa40008370
+2020-07-15 09:48:34 INFO MsgZmq::Bind: dest:tcp://127.0.0.1:3898
+2020-07-15 09:48:34 INFO Flushed 1 messages during netlib init
+2020-07-15 09:48:34 INFO Flushed 1 messages during netlib init
+2020-07-15 09:48:34 INFO nmem_pool_create: memory pool created for ip_flow of 65536 objects
+2020-07-15 09:48:34 INFO ip_register_protosw: protocol 6 registered
+2020-07-15 09:48:34 INFO ip_register_protosw: protocol 17 registered
+2020-07-15 09:48:34 INFO nmem_pool_create: memory pool created for ip_flowgrp_cfg of 4096 objects
+2020-07-15 09:48:34 INFO nmem_pool_create: memory pool created for ip_flowgrp of 2048 objects
+2020-07-15 09:48:34 INFO nmem_pool_create: memory pool created for hc_metrics of 15360 objects
+2020-07-15 09:48:34 INFO [system_metadata] Module configuration...
+2020-07-15 09:48:34 INFO [agent_metadata] Metadata initialization done
+2020-07-15 09:48:34 INFO [application_service_ports] Module configuration...
+2020-07-15 09:48:34 INFO flow_config_read_cb: No application service port configuration found
+2020-07-15 09:48:34 INFO [capture] Module configuration...
+2020-07-15 09:48:34 INFO [any] open pcap device
+2020-07-15 09:48:34 INFO [any] Interface added
+2020-07-15 09:48:34 INFO [any] Seting up for packet capture
+2020-07-15 09:48:34 INFO [ens192] Addresses
+2020-07-15 09:48:34 INFO 	MAC - 0:50:56:ae:f8:dc
+2020-07-15 09:48:34 INFO 	IPv4 : 10:51:71:58
+2020-07-15 09:48:34 INFO [vethc4b252b] Addresses
+2020-07-15 09:48:34 INFO 	MAC - 72:cb:a:52:bb:a3
+2020-07-15 09:48:34 INFO [any (Pseudo-device that captures on all interfaces)] Addresses
+2020-07-15 09:48:34 INFO [lo] Addresses
+2020-07-15 09:48:34 INFO 	MAC - 0:0:0:0:0:0
+2020-07-15 09:48:34 INFO 	IPv4 : 127:0:0:1
+2020-07-15 09:48:34 INFO [br-df2064892468] Addresses
+2020-07-15 09:48:34 INFO 	MAC - 2:42:30:86:c3:6a
+2020-07-15 09:48:34 INFO 	IPv4 : 172:20:0:1
+2020-07-15 09:48:34 INFO [docker0] Addresses
+2020-07-15 09:48:34 INFO 	MAC - 2:42:66:c3:77:e8
+2020-07-15 09:48:34 INFO 	IPv4 : 172:17:0:1
+2020-07-15 09:48:34 INFO [br-c68320a171a5] Addresses
+2020-07-15 09:48:34 INFO 	MAC - 2:42:55:97:60:f1
+2020-07-15 09:48:34 INFO 	IPv4 : 172:18:0:1
+2020-07-15 09:48:34 INFO [br-3d1af900290c] Addresses
+2020-07-15 09:48:34 INFO 	MAC - 2:42:7f:a:8f:ec
+2020-07-15 09:48:34 INFO 	IPv4 : 172:19:0:1
+2020-07-15 09:48:34 INFO [nflog (Linux netfilter log (NFLOG) interface)] Addresses
+2020-07-15 09:48:34 INFO [nfqueue (Linux netfilter queue (NFQUEUE) interface)] Addresses
+2020-07-15 09:48:34 INFO [any] File id set to: poc_vm1_0_any
+2020-07-15 09:48:34 INFO [agent_backoff] Backoff module initialized
+2020-07-15 09:48:34 INFO [plugin_if_config] Module configuration...
+2020-07-15 09:48:34 INFO [plugin_proc_config] Module configuration...
+2020-07-15 09:48:34 INFO lua_ext_register: Loaded socket.lua plugin successfully
+2020-07-15 09:48:34 INFO lua_ext_register: Loaded process.lua plugin successfully
+2020-07-15 09:48:34 INFO lua_ext_register: Loaded all-interface.lua plugin successfully
+2020-07-15 09:48:34 INFO [selfmon_config] Module configuration...
+2020-07-15 09:48:34 INFO selfmon_read_config_cb: Continuing with default configuration
+2020-07-15 09:48:34 INFO selfmon_init: selfmon_timeout scheduled every 30 sec
+2020-07-15 09:48:34 INFO [webserver_config] Module configuration...
+2020-07-15 09:48:34 INFO NetViz Agent listening on 127.0.0.1:3892
+2020-07-15 09:48:34 INFO Agent (2079) started..
+2020-07-15 09:48:34 INFO NetViz Agent  20.6.0-2146 x86_64 2020-06-17 20:47:35 UTC
+2020-07-15 09:48:34 INFO AS Event header: Network Visibility Agent started successfully, PID: 2079
+2020-07-15 09:49:28 INFO Received signal: Terminated, agent will now perform a graceful shutdown
+2020-07-15 09:49:28 INFO Starting cleanup for exiting
+2020-07-15 09:49:28 INFO webserver_fini: Stopping webserver
+2020-07-15 09:49:28 INFO Received signal: Terminated, agent will now perform a graceful shutdown
+2020-07-15 09:49:28 INFO Starting cleanup for exiting
+2020-07-15 09:49:28 INFO webserver_fini: Stopping webserver
+2020-07-15 09:49:28 INFO adns_resolver_fini: Finishing adns resolver module
+2020-07-15 09:49:28 INFO Curl module destroyed
+2020-07-15 09:49:28 INFO Netlib module destroyed
+2020-07-15 09:49:28 INFO Stopping main poll
+2020-07-15 09:49:28 INFO Netctl module destroyed
+2020-07-15 09:50:07 INFO Logging infra initialized...
+2020-07-15 09:50:07 INFO [Timer] module initialized
+2020-07-15 09:50:07 INFO nmem_pool_create: memory pool created for kvm of 74752 objects
+2020-07-15 09:50:07 INFO nmem_pool_create: memory pool created for kvs of 65536 objects
+2020-07-15 09:50:07 INFO [npm_config] Module configuration...
+2020-07-15 09:50:07 INFO [export_config] Module configuration...
+2020-07-15 09:50:07 INFO [Export] to files initialized
+2020-07-15 09:50:07 INFO Curl module initialized
+2020-07-15 09:50:07 INFO [NetLib] Initializing ...
+2020-07-15 09:50:07 INFO [NetLib] Initialized
+2020-07-15 09:50:07 INFO nmem_pool_create: memory pool created for mbuf of 4 objects
+2020-07-15 09:50:07 INFO Initialized pattern matching engine
+2020-07-15 09:50:07 INFO Registered PCRE module
+2020-07-15 09:50:07 INFO dissector_mod_init: Dissector module init
+2020-07-15 09:50:07 INFO [pcap] Device module registered...
+2020-07-15 09:50:07 INFO [adns_resolver_init]: Starting Async DNS resolution thread
+2020-07-15 09:50:07 INFO [ip_config] Module configuration...
+2020-07-15 09:50:07 INFO nmem_pool_create: memory pool created for ip_hostcache of 2048 objects
+2020-07-15 09:50:07 INFO [dpi_config] Module configuration...
+2020-07-15 09:50:07 INFO nmem_pool_create: memory pool created for netlib_msg of 65536 objects
+2020-07-15 09:50:07 INFO MsgZmq: publisher ZMQ socket opened 0x7fa3140038a0
+2020-07-15 09:50:07 INFO MsgZmq::Bind: dest:ipc:///opt/appd/machine_agent/extensions/NetVizExtension/agent/run/appd-netlib.sock
+2020-07-15 09:50:07 INFO MsgZmq: publisher ZMQ socket opened 0x7fa314008370
+2020-07-15 09:50:07 INFO MsgZmq::Bind: dest:tcp://127.0.0.1:3898
+2020-07-15 09:50:07 INFO Flushed 1 messages during netlib init
+2020-07-15 09:50:07 INFO Flushed 1 messages during netlib init
+2020-07-15 09:50:07 INFO nmem_pool_create: memory pool created for ip_flow of 65536 objects
+2020-07-15 09:50:07 INFO ip_register_protosw: protocol 6 registered
+2020-07-15 09:50:07 INFO ip_register_protosw: protocol 17 registered
+2020-07-15 09:50:07 INFO nmem_pool_create: memory pool created for ip_flowgrp_cfg of 4096 objects
+2020-07-15 09:50:07 INFO nmem_pool_create: memory pool created for ip_flowgrp of 2048 objects
+2020-07-15 09:50:07 INFO nmem_pool_create: memory pool created for hc_metrics of 15360 objects
+2020-07-15 09:50:07 INFO [system_metadata] Module configuration...
+2020-07-15 09:50:07 INFO [agent_metadata] Metadata initialization done
+2020-07-15 09:50:07 INFO [application_service_ports] Module configuration...
+2020-07-15 09:50:07 INFO flow_config_read_cb: No application service port configuration found
+2020-07-15 09:50:07 INFO [capture] Module configuration...
+2020-07-15 09:50:07 INFO [any] open pcap device
+2020-07-15 09:50:07 INFO [any] Interface added
+2020-07-15 09:50:07 INFO [any] Seting up for packet capture
+2020-07-15 09:50:07 INFO [ens192] Addresses
+2020-07-15 09:50:07 INFO 	MAC - 0:50:56:ae:f8:dc
+2020-07-15 09:50:07 INFO 	IPv4 : 10:51:71:58
+2020-07-15 09:50:07 INFO [vethc4b252b] Addresses
+2020-07-15 09:50:07 INFO 	MAC - 72:cb:a:52:bb:a3
+2020-07-15 09:50:07 INFO [any (Pseudo-device that captures on all interfaces)] Addresses
+2020-07-15 09:50:07 INFO [lo] Addresses
+2020-07-15 09:50:07 INFO 	MAC - 0:0:0:0:0:0
+2020-07-15 09:50:07 INFO 	IPv4 : 127:0:0:1
+2020-07-15 09:50:07 INFO [br-df2064892468] Addresses
+2020-07-15 09:50:07 INFO 	MAC - 2:42:30:86:c3:6a
+2020-07-15 09:50:07 INFO 	IPv4 : 172:20:0:1
+2020-07-15 09:50:07 INFO [docker0] Addresses
+2020-07-15 09:50:07 INFO 	MAC - 2:42:66:c3:77:e8
+2020-07-15 09:50:07 INFO 	IPv4 : 172:17:0:1
+2020-07-15 09:50:07 INFO [br-c68320a171a5] Addresses
+2020-07-15 09:50:07 INFO 	MAC - 2:42:55:97:60:f1
+2020-07-15 09:50:07 INFO 	IPv4 : 172:18:0:1
+2020-07-15 09:50:07 INFO [br-3d1af900290c] Addresses
+2020-07-15 09:50:07 INFO 	MAC - 2:42:7f:a:8f:ec
+2020-07-15 09:50:07 INFO 	IPv4 : 172:19:0:1
+2020-07-15 09:50:07 INFO [nflog (Linux netfilter log (NFLOG) interface)] Addresses
+2020-07-15 09:50:07 INFO [nfqueue (Linux netfilter queue (NFQUEUE) interface)] Addresses
+2020-07-15 09:50:07 INFO [any] File id set to: poc_vm1_0_any
+2020-07-15 09:50:07 INFO [agent_backoff] Backoff module initialized
+2020-07-15 09:50:07 INFO [plugin_if_config] Module configuration...
+2020-07-15 09:50:07 INFO [plugin_proc_config] Module configuration...
+2020-07-15 09:50:07 INFO lua_ext_register: Loaded socket.lua plugin successfully
+2020-07-15 09:50:07 INFO lua_ext_register: Loaded process.lua plugin successfully
+2020-07-15 09:50:07 INFO lua_ext_register: Loaded all-interface.lua plugin successfully
+2020-07-15 09:50:07 INFO [selfmon_config] Module configuration...
+2020-07-15 09:50:07 INFO selfmon_read_config_cb: Continuing with default configuration
+2020-07-15 09:50:07 INFO selfmon_init: selfmon_timeout scheduled every 30 sec
+2020-07-15 09:50:07 INFO [webserver_config] Module configuration...
+2020-07-15 09:50:07 INFO NetViz Agent listening on 127.0.0.1:3892
+2020-07-15 09:50:07 INFO Agent (4711) started..
+2020-07-15 09:50:07 INFO NetViz Agent  20.6.0-2146 x86_64 2020-06-17 20:47:35 UTC
+2020-07-15 09:50:07 INFO AS Event header: Network Visibility Agent started successfully, PID: 4711
+2020-07-15 09:52:57 INFO agent_backoff_enter: Agent is going to backoff
+2020-07-15 09:52:57 INFO ifpcap_disable: Stopping pkts capture on any
+2020-07-15 09:52:57 INFO agent_backoff_enter: Agent backed off successfully
+2020-07-15 10:20:48 INFO Received signal: Terminated, agent will now perform a graceful shutdown
+2020-07-15 10:20:48 INFO Starting cleanup for exiting
+2020-07-15 10:20:48 INFO webserver_fini: Stopping webserver
+2020-07-15 10:20:48 INFO Received signal: Terminated, agent will now perform a graceful shutdown
+2020-07-15 10:20:48 INFO Starting cleanup for exiting
+2020-07-15 10:20:48 INFO webserver_fini: Stopping webserver
+2020-07-15 10:20:48 INFO adns_resolver_fini: Finishing adns resolver module
+2020-07-15 10:20:48 INFO Curl module destroyed
+2020-07-15 10:20:48 INFO Netlib module destroyed
+2020-07-15 10:20:48 INFO Stopping main poll
+2020-07-15 10:20:48 INFO Netctl module destroyed
+2020-07-15 10:21:28 INFO Logging infra initialized...
+2020-07-15 10:21:28 INFO [Timer] module initialized
+2020-07-15 10:21:28 INFO nmem_pool_create: memory pool created for kvm of 74752 objects
+2020-07-15 10:21:28 INFO nmem_pool_create: memory pool created for kvs of 65536 objects
+2020-07-15 10:21:28 INFO [npm_config] Module configuration...
+2020-07-15 10:21:28 INFO [export_config] Module configuration...
+2020-07-15 10:21:28 INFO [Export] to files initialized
+2020-07-15 10:21:28 INFO Curl module initialized
+2020-07-15 10:21:28 INFO [NetLib] Initializing ...
+2020-07-15 10:21:28 INFO [NetLib] Initialized
+2020-07-15 10:21:28 INFO nmem_pool_create: memory pool created for mbuf of 4 objects
+2020-07-15 10:21:28 INFO Initialized pattern matching engine
+2020-07-15 10:21:28 INFO Registered PCRE module
+2020-07-15 10:21:28 INFO dissector_mod_init: Dissector module init
+2020-07-15 10:21:28 INFO [pcap] Device module registered...
+2020-07-15 10:21:28 INFO [adns_resolver_init]: Starting Async DNS resolution thread
+2020-07-15 10:21:28 INFO [ip_config] Module configuration...
+2020-07-15 10:21:28 INFO nmem_pool_create: memory pool created for ip_hostcache of 2048 objects
+2020-07-15 10:21:28 INFO [dpi_config] Module configuration...
+2020-07-15 10:21:28 INFO nmem_pool_create: memory pool created for netlib_msg of 65536 objects
+2020-07-15 10:21:28 INFO MsgZmq: publisher ZMQ socket opened 0x7f40800038a0
+2020-07-15 10:21:28 INFO MsgZmq::Bind: dest:ipc:///opt/appd/machine_agent/extensions/NetVizExtension/agent/run/appd-netlib.sock
+2020-07-15 10:21:28 INFO MsgZmq: publisher ZMQ socket opened 0x7f4080008370
+2020-07-15 10:21:28 INFO MsgZmq::Bind: dest:tcp://127.0.0.1:3898
+2020-07-15 10:21:28 INFO Flushed 1 messages during netlib init
+2020-07-15 10:21:28 INFO Flushed 1 messages during netlib init
+2020-07-15 10:21:28 INFO nmem_pool_create: memory pool created for ip_flow of 65536 objects
+2020-07-15 10:21:28 INFO ip_register_protosw: protocol 6 registered
+2020-07-15 10:21:28 INFO ip_register_protosw: protocol 17 registered
+2020-07-15 10:21:28 INFO nmem_pool_create: memory pool created for ip_flowgrp_cfg of 4096 objects
+2020-07-15 10:21:28 INFO nmem_pool_create: memory pool created for ip_flowgrp of 2048 objects
+2020-07-15 10:21:28 INFO nmem_pool_create: memory pool created for hc_metrics of 15360 objects
+2020-07-15 10:21:28 INFO [system_metadata] Module configuration...
+2020-07-15 10:21:28 INFO [agent_metadata] Metadata initialization done
+2020-07-15 10:21:28 INFO [application_service_ports] Module configuration...
+2020-07-15 10:21:28 INFO flow_config_read_cb: No application service port configuration found
+2020-07-15 10:21:28 INFO [capture] Module configuration...
+2020-07-15 10:21:28 INFO [any] open pcap device
+2020-07-15 10:21:28 INFO [any] Interface added
+2020-07-15 10:21:28 INFO [any] Seting up for packet capture
+2020-07-15 10:21:28 INFO [veth2025cc1] Addresses
+2020-07-15 10:21:28 INFO 	MAC - e6:53:69:bc:37:7c
+2020-07-15 10:21:28 INFO [ens192] Addresses
+2020-07-15 10:21:28 INFO 	MAC - 0:50:56:ae:f8:dc
+2020-07-15 10:21:28 INFO 	IPv4 : 10:51:71:58
+2020-07-15 10:21:28 INFO [any (Pseudo-device that captures on all interfaces)] Addresses
+2020-07-15 10:21:28 INFO [lo] Addresses
+2020-07-15 10:21:28 INFO 	MAC - 0:0:0:0:0:0
+2020-07-15 10:21:28 INFO 	IPv4 : 127:0:0:1
+2020-07-15 10:21:28 INFO [br-df2064892468] Addresses
+2020-07-15 10:21:28 INFO 	MAC - 2:42:30:86:c3:6a
+2020-07-15 10:21:28 INFO 	IPv4 : 172:20:0:1
+2020-07-15 10:21:28 INFO [docker0] Addresses
+2020-07-15 10:21:28 INFO 	MAC - 2:42:66:c3:77:e8
+2020-07-15 10:21:28 INFO 	IPv4 : 172:17:0:1
+2020-07-15 10:21:28 INFO [br-c68320a171a5] Addresses
+2020-07-15 10:21:28 INFO 	MAC - 2:42:55:97:60:f1
+2020-07-15 10:21:28 INFO 	IPv4 : 172:18:0:1
+2020-07-15 10:21:28 INFO [br-3d1af900290c] Addresses
+2020-07-15 10:21:28 INFO 	MAC - 2:42:7f:a:8f:ec
+2020-07-15 10:21:28 INFO 	IPv4 : 172:19:0:1
+2020-07-15 10:21:28 INFO [nflog (Linux netfilter log (NFLOG) interface)] Addresses
+2020-07-15 10:21:28 INFO [nfqueue (Linux netfilter queue (NFQUEUE) interface)] Addresses
+2020-07-15 10:21:28 INFO [any] File id set to: poc_vm1_0_any
+2020-07-15 10:21:28 INFO [agent_backoff] Backoff module initialized
+2020-07-15 10:21:28 INFO [plugin_if_config] Module configuration...
+2020-07-15 10:21:28 INFO [plugin_proc_config] Module configuration...
+2020-07-15 10:21:28 INFO lua_ext_register: Loaded socket.lua plugin successfully
+2020-07-15 10:21:28 INFO lua_ext_register: Loaded process.lua plugin successfully
+2020-07-15 10:21:28 INFO lua_ext_register: Loaded all-interface.lua plugin successfully
+2020-07-15 10:21:28 INFO [selfmon_config] Module configuration...
+2020-07-15 10:21:28 INFO selfmon_read_config_cb: Continuing with default configuration
+2020-07-15 10:21:28 INFO selfmon_init: selfmon_timeout scheduled every 30 sec
+2020-07-15 10:21:28 INFO [webserver_config] Module configuration...
+2020-07-15 10:21:28 INFO NetViz Agent listening on 127.0.0.1:3892
+2020-07-15 10:21:28 INFO Agent (20331) started..
+2020-07-15 10:21:28 INFO NetViz Agent  20.6.0-2146 x86_64 2020-06-17 20:47:35 UTC
+2020-07-15 10:21:28 INFO AS Event header: Network Visibility Agent started successfully, PID: 20331
+2020-07-15 10:24:12 INFO agent_backoff_enter: Agent is going to backoff
+2020-07-15 10:24:12 INFO ifpcap_disable: Stopping pkts capture on any
+2020-07-15 10:24:12 INFO agent_backoff_enter: Agent backed off successfully
+2020-07-15 14:17:53 INFO Received signal: Terminated, agent will now perform a graceful shutdown
+2020-07-15 14:17:53 INFO Starting cleanup for exiting
+2020-07-15 14:17:53 INFO webserver_fini: Stopping webserver
+2020-07-15 14:17:53 INFO Received signal: Terminated, agent will now perform a graceful shutdown
+2020-07-15 14:17:53 INFO Starting cleanup for exiting
+2020-07-15 14:17:53 INFO webserver_fini: Stopping webserver
+2020-07-15 14:17:53 INFO adns_resolver_fini: Finishing adns resolver module
+2020-07-15 14:17:53 INFO Curl module destroyed
+2020-07-15 14:17:53 INFO Netlib module destroyed
+2020-07-15 14:17:53 INFO Stopping main poll
+2020-07-15 14:17:53 INFO Netctl module destroyed
+2020-07-15 14:18:31 INFO Logging infra initialized...
+2020-07-15 14:18:31 INFO [Timer] module initialized
+2020-07-15 14:18:31 INFO nmem_pool_create: memory pool created for kvm of 74752 objects
+2020-07-15 14:18:31 INFO nmem_pool_create: memory pool created for kvs of 65536 objects
+2020-07-15 14:18:31 INFO [npm_config] Module configuration...
+2020-07-15 14:18:31 INFO [export_config] Module configuration...
+2020-07-15 14:18:31 INFO [Export] to files initialized
+2020-07-15 14:18:31 INFO Curl module initialized
+2020-07-15 14:18:31 INFO [NetLib] Initializing ...
+2020-07-15 14:18:31 INFO [NetLib] Initialized
+2020-07-15 14:18:31 INFO nmem_pool_create: memory pool created for mbuf of 4 objects
+2020-07-15 14:18:31 INFO Initialized pattern matching engine
+2020-07-15 14:18:31 INFO Registered PCRE module
+2020-07-15 14:18:31 INFO dissector_mod_init: Dissector module init
+2020-07-15 14:18:31 INFO [pcap] Device module registered...
+2020-07-15 14:18:31 INFO [adns_resolver_init]: Starting Async DNS resolution thread
+2020-07-15 14:18:31 INFO [ip_config] Module configuration...
+2020-07-15 14:18:31 INFO nmem_pool_create: memory pool created for ip_hostcache of 2048 objects
+2020-07-15 14:18:31 INFO [dpi_config] Module configuration...
+2020-07-15 14:18:31 INFO nmem_pool_create: memory pool created for netlib_msg of 65536 objects
+2020-07-15 14:18:31 INFO MsgZmq: publisher ZMQ socket opened 0x7f83640038a0
+2020-07-15 14:18:31 INFO MsgZmq::Bind: dest:ipc:///opt/appd/machine_agent/extensions/NetVizExtension/agent/run/appd-netlib.sock
+2020-07-15 14:18:31 INFO MsgZmq: publisher ZMQ socket opened 0x7f8364008370
+2020-07-15 14:18:31 INFO MsgZmq::Bind: dest:tcp://127.0.0.1:3898
+2020-07-15 14:18:31 INFO Flushed 1 messages during netlib init
+2020-07-15 14:18:31 INFO Flushed 1 messages during netlib init
+2020-07-15 14:18:31 INFO nmem_pool_create: memory pool created for ip_flow of 65536 objects
+2020-07-15 14:18:31 INFO ip_register_protosw: protocol 6 registered
+2020-07-15 14:18:31 INFO ip_register_protosw: protocol 17 registered
+2020-07-15 14:18:31 INFO nmem_pool_create: memory pool created for ip_flowgrp_cfg of 4096 objects
+2020-07-15 14:18:31 INFO nmem_pool_create: memory pool created for ip_flowgrp of 2048 objects
+2020-07-15 14:18:31 INFO nmem_pool_create: memory pool created for hc_metrics of 15360 objects
+2020-07-15 14:18:31 INFO [system_metadata] Module configuration...
+2020-07-15 14:18:31 INFO [agent_metadata] Metadata initialization done
+2020-07-15 14:18:31 INFO [application_service_ports] Module configuration...
+2020-07-15 14:18:31 INFO flow_config_read_cb: No application service port configuration found
+2020-07-15 14:18:31 INFO [capture] Module configuration...
+2020-07-15 14:18:31 INFO [any] open pcap device
+2020-07-15 14:18:31 INFO [any] Interface added
+2020-07-15 14:18:31 INFO [any] Seting up for packet capture
+2020-07-15 14:18:31 INFO [veth2025cc1] Addresses
+2020-07-15 14:18:31 INFO 	MAC - e6:53:69:bc:37:7c
+2020-07-15 14:18:31 INFO [ens192] Addresses
+2020-07-15 14:18:31 INFO 	MAC - 0:50:56:ae:f8:dc
+2020-07-15 14:18:31 INFO 	IPv4 : 10:51:71:58
+2020-07-15 14:18:31 INFO [any (Pseudo-device that captures on all interfaces)] Addresses
+2020-07-15 14:18:31 INFO [lo] Addresses
+2020-07-15 14:18:31 INFO 	MAC - 0:0:0:0:0:0
+2020-07-15 14:18:31 INFO 	IPv4 : 127:0:0:1
+2020-07-15 14:18:31 INFO [br-df2064892468] Addresses
+2020-07-15 14:18:31 INFO 	MAC - 2:42:30:86:c3:6a
+2020-07-15 14:18:31 INFO 	IPv4 : 172:20:0:1
+2020-07-15 14:18:31 INFO [docker0] Addresses
+2020-07-15 14:18:31 INFO 	MAC - 2:42:66:c3:77:e8
+2020-07-15 14:18:31 INFO 	IPv4 : 172:17:0:1
+2020-07-15 14:18:31 INFO [br-c68320a171a5] Addresses
+2020-07-15 14:18:31 INFO 	MAC - 2:42:55:97:60:f1
+2020-07-15 14:18:31 INFO 	IPv4 : 172:18:0:1
+2020-07-15 14:18:31 INFO [br-3d1af900290c] Addresses
+2020-07-15 14:18:31 INFO 	MAC - 2:42:7f:a:8f:ec
+2020-07-15 14:18:31 INFO 	IPv4 : 172:19:0:1
+2020-07-15 14:18:31 INFO [nflog (Linux netfilter log (NFLOG) interface)] Addresses
+2020-07-15 14:18:31 INFO [nfqueue (Linux netfilter queue (NFQUEUE) interface)] Addresses
+2020-07-15 14:18:31 INFO [any] File id set to: poc_vm1_0_any
+2020-07-15 14:18:31 INFO [agent_backoff] Backoff module initialized
+2020-07-15 14:18:31 INFO [plugin_if_config] Module configuration...
+2020-07-15 14:18:31 INFO [plugin_proc_config] Module configuration...
+2020-07-15 14:18:31 INFO lua_ext_register: Loaded socket.lua plugin successfully
+2020-07-15 14:18:31 INFO lua_ext_register: Loaded process.lua plugin successfully
+2020-07-15 14:18:31 INFO lua_ext_register: Loaded all-interface.lua plugin successfully
+2020-07-15 14:18:31 INFO [selfmon_config] Module configuration...
+2020-07-15 14:18:31 INFO selfmon_read_config_cb: Continuing with default configuration
+2020-07-15 14:18:31 INFO selfmon_init: selfmon_timeout scheduled every 30 sec
+2020-07-15 14:18:31 INFO [webserver_config] Module configuration...
+2020-07-15 14:18:31 INFO NetViz Agent listening on 127.0.0.1:3892
+2020-07-15 14:18:31 INFO Agent (19125) started..
+2020-07-15 14:18:31 INFO NetViz Agent  20.6.0-2146 x86_64 2020-06-17 20:47:35 UTC
+2020-07-15 14:18:31 INFO AS Event header: Network Visibility Agent started successfully, PID: 19125
+2020-07-15 14:21:17 INFO agent_backoff_enter: Agent is going to backoff
+2020-07-15 14:21:17 INFO ifpcap_disable: Stopping pkts capture on any
+2020-07-15 14:21:17 INFO agent_backoff_enter: Agent backed off successfully
+2020-07-16 08:47:07 INFO Received signal: Terminated, agent will now perform a graceful shutdown
+2020-07-16 08:47:07 INFO Starting cleanup for exiting
+2020-07-16 08:47:07 INFO webserver_fini: Stopping webserver
+2020-07-16 08:47:08 INFO adns_resolver_fini: Finishing adns resolver module
+2020-07-16 08:47:08 INFO Curl module destroyed
+2020-07-16 08:47:08 INFO Netlib module destroyed
+2020-07-16 08:47:08 INFO Stopping main poll
+2020-07-16 08:47:08 INFO Netctl module destroyed
+2020-07-16 08:47:47 INFO Logging infra initialized...
+2020-07-16 08:47:47 INFO [Timer] module initialized
+2020-07-16 08:47:47 INFO nmem_pool_create: memory pool created for kvm of 74752 objects
+2020-07-16 08:47:47 INFO nmem_pool_create: memory pool created for kvs of 65536 objects
+2020-07-16 08:47:47 INFO [npm_config] Module configuration...
+2020-07-16 08:47:47 INFO [export_config] Module configuration...
+2020-07-16 08:47:47 INFO [Export] to files initialized
+2020-07-16 08:47:47 INFO Curl module initialized
+2020-07-16 08:47:47 INFO [NetLib] Initializing ...
+2020-07-16 08:47:47 INFO [NetLib] Initialized
+2020-07-16 08:47:47 INFO nmem_pool_create: memory pool created for mbuf of 4 objects
+2020-07-16 08:47:47 INFO Initialized pattern matching engine
+2020-07-16 08:47:47 INFO Registered PCRE module
+2020-07-16 08:47:47 INFO dissector_mod_init: Dissector module init
+2020-07-16 08:47:47 INFO [pcap] Device module registered...
+2020-07-16 08:47:47 INFO [adns_resolver_init]: Starting Async DNS resolution thread
+2020-07-16 08:47:47 INFO [ip_config] Module configuration...
+2020-07-16 08:47:47 INFO nmem_pool_create: memory pool created for ip_hostcache of 2048 objects
+2020-07-16 08:47:47 INFO [dpi_config] Module configuration...
+2020-07-16 08:47:47 INFO nmem_pool_create: memory pool created for netlib_msg of 65536 objects
+2020-07-16 08:47:47 INFO MsgZmq: publisher ZMQ socket opened 0x7f75d40038a0
+2020-07-16 08:47:47 INFO MsgZmq::Bind: dest:ipc:///opt/appd/machine_agent/extensions/NetVizExtension/agent/run/appd-netlib.sock
+2020-07-16 08:47:47 INFO MsgZmq: publisher ZMQ socket opened 0x7f75d4008370
+2020-07-16 08:47:47 INFO MsgZmq::Bind: dest:tcp://127.0.0.1:3898
+2020-07-16 08:47:47 INFO Flushed 1 messages during netlib init
+2020-07-16 08:47:47 INFO Flushed 1 messages during netlib init
+2020-07-16 08:47:47 INFO nmem_pool_create: memory pool created for ip_flow of 65536 objects
+2020-07-16 08:47:47 INFO ip_register_protosw: protocol 6 registered
+2020-07-16 08:47:47 INFO ip_register_protosw: protocol 17 registered
+2020-07-16 08:47:47 INFO nmem_pool_create: memory pool created for ip_flowgrp_cfg of 4096 objects
+2020-07-16 08:47:47 INFO nmem_pool_create: memory pool created for ip_flowgrp of 2048 objects
+2020-07-16 08:47:47 INFO nmem_pool_create: memory pool created for hc_metrics of 15360 objects
+2020-07-16 08:47:47 INFO [system_metadata] Module configuration...
+2020-07-16 08:47:47 INFO [agent_metadata] Metadata initialization done
+2020-07-16 08:47:47 INFO [application_service_ports] Module configuration...
+2020-07-16 08:47:47 INFO flow_config_read_cb: No application service port configuration found
+2020-07-16 08:47:47 INFO [capture] Module configuration...
+2020-07-16 08:47:47 INFO [any] open pcap device
+2020-07-16 08:47:47 INFO [any] Interface added
+2020-07-16 08:47:47 INFO [any] Seting up for packet capture
+2020-07-16 08:47:47 INFO [ens192] Addresses
+2020-07-16 08:47:47 INFO 	MAC - 0:50:56:ae:f8:dc
+2020-07-16 08:47:47 INFO 	IPv4 : 10:51:71:58
+2020-07-16 08:47:47 INFO [vethc103524] Addresses
+2020-07-16 08:47:47 INFO 	MAC - 7a:74:26:47:c7:dd
+2020-07-16 08:47:47 INFO [any (Pseudo-device that captures on all interfaces)] Addresses
+2020-07-16 08:47:47 INFO [lo] Addresses
+2020-07-16 08:47:47 INFO 	MAC - 0:0:0:0:0:0
+2020-07-16 08:47:47 INFO 	IPv4 : 127:0:0:1
+2020-07-16 08:47:47 INFO [br-df2064892468] Addresses
+2020-07-16 08:47:47 INFO 	MAC - 2:42:30:86:c3:6a
+2020-07-16 08:47:47 INFO 	IPv4 : 172:20:0:1
+2020-07-16 08:47:47 INFO [docker0] Addresses
+2020-07-16 08:47:47 INFO 	MAC - 2:42:66:c3:77:e8
+2020-07-16 08:47:47 INFO 	IPv4 : 172:17:0:1
+2020-07-16 08:47:47 INFO [br-c68320a171a5] Addresses
+2020-07-16 08:47:47 INFO 	MAC - 2:42:55:97:60:f1
+2020-07-16 08:47:47 INFO 	IPv4 : 172:18:0:1
+2020-07-16 08:47:47 INFO [br-3d1af900290c] Addresses
+2020-07-16 08:47:47 INFO 	MAC - 2:42:7f:a:8f:ec
+2020-07-16 08:47:47 INFO 	IPv4 : 172:19:0:1
+2020-07-16 08:47:47 INFO [nflog (Linux netfilter log (NFLOG) interface)] Addresses
+2020-07-16 08:47:47 INFO [nfqueue (Linux netfilter queue (NFQUEUE) interface)] Addresses
+2020-07-16 08:47:47 INFO [any] File id set to: poc_vm1_0_any
+2020-07-16 08:47:47 INFO [agent_backoff] Backoff module initialized
+2020-07-16 08:47:47 INFO [plugin_if_config] Module configuration...
+2020-07-16 08:47:47 INFO [plugin_proc_config] Module configuration...
+2020-07-16 08:47:47 INFO lua_ext_register: Loaded socket.lua plugin successfully
+2020-07-16 08:47:47 INFO lua_ext_register: Loaded process.lua plugin successfully
+2020-07-16 08:47:47 INFO lua_ext_register: Loaded all-interface.lua plugin successfully
+2020-07-16 08:47:47 INFO [selfmon_config] Module configuration...
+2020-07-16 08:47:47 INFO selfmon_read_config_cb: Continuing with default configuration
+2020-07-16 08:47:47 INFO selfmon_init: selfmon_timeout scheduled every 30 sec
+2020-07-16 08:47:47 INFO [webserver_config] Module configuration...
+2020-07-16 08:47:47 INFO NetViz Agent listening on 0.0.0.0:3892
+2020-07-16 08:47:47 INFO Agent (11876) started..
+2020-07-16 08:47:47 INFO NetViz Agent  20.6.0-2146 x86_64 2020-06-17 20:47:35 UTC
+2020-07-16 08:47:47 INFO AS Event header: Network Visibility Agent started successfully, PID: 11876
+2020-07-16 08:50:40 INFO agent_backoff_enter: Agent is going to backoff
+2020-07-16 08:50:40 INFO ifpcap_disable: Stopping pkts capture on any
+2020-07-16 08:50:40 INFO agent_backoff_enter: Agent backed off successfully
